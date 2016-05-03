@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C496A6641CD8924800F017E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6631CD8924800F017E5 /* main.m */; };
+		C496A6671CD8924800F017E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6661CD8924800F017E5 /* AppDelegate.m */; };
+		C496A66A1CD8924800F017E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6691CD8924800F017E5 /* ViewController.m */; };
+		C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496A66B1CD8924800F017E5 /* Main.storyboard */; };
+		C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C496A66E1CD8924800F017E5 /* Assets.xcassets */; };
+		C496A6721CD8924800F017E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496A6701CD8924800F017E5 /* LaunchScreen.storyboard */; };
+		C496A67D1CD8924800F017E5 /* GTQHuntForCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A67C1CD8924800F017E5 /* GTQHuntForCityTests.m */; };
+		C496A6881CD8924800F017E5 /* GTQHuntForCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C496A6791CD8924800F017E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C496A6571CD8924800F017E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C496A65E1CD8924800F017E5;
+			remoteInfo = GTQHuntForCity;
+		};
+		C496A6841CD8924800F017E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C496A6571CD8924800F017E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C496A65E1CD8924800F017E5;
+			remoteInfo = GTQHuntForCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C496A65F1CD8924800F017E5 /* GTQHuntForCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTQHuntForCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496A6631CD8924800F017E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C496A6651CD8924800F017E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C496A6661CD8924800F017E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C496A6681CD8924800F017E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C496A6691CD8924800F017E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C496A66C1CD8924800F017E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C496A66E1CD8924800F017E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C496A6711CD8924800F017E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C496A6731CD8924800F017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C496A6781CD8924800F017E5 /* GTQHuntForCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTQHuntForCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496A67C1CD8924800F017E5 /* GTQHuntForCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTQHuntForCityTests.m; sourceTree = "<group>"; };
+		C496A67E1CD8924800F017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C496A6831CD8924800F017E5 /* GTQHuntForCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTQHuntForCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTQHuntForCityUITests.m; sourceTree = "<group>"; };
+		C496A6891CD8924800F017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C496A65C1CD8924800F017E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496A6751CD8924800F017E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496A6801CD8924800F017E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C496A6561CD8924800F017E5 = {
+			isa = PBXGroup;
+			children = (
+				C496A6611CD8924800F017E5 /* GTQHuntForCity */,
+				C496A67B1CD8924800F017E5 /* GTQHuntForCityTests */,
+				C496A6861CD8924800F017E5 /* GTQHuntForCityUITests */,
+				C496A6601CD8924800F017E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C496A6601CD8924800F017E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C496A65F1CD8924800F017E5 /* GTQHuntForCity.app */,
+				C496A6781CD8924800F017E5 /* GTQHuntForCityTests.xctest */,
+				C496A6831CD8924800F017E5 /* GTQHuntForCityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C496A6611CD8924800F017E5 /* GTQHuntForCity */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6651CD8924800F017E5 /* AppDelegate.h */,
+				C496A6661CD8924800F017E5 /* AppDelegate.m */,
+				C496A6681CD8924800F017E5 /* ViewController.h */,
+				C496A6691CD8924800F017E5 /* ViewController.m */,
+				C496A66B1CD8924800F017E5 /* Main.storyboard */,
+				C496A66E1CD8924800F017E5 /* Assets.xcassets */,
+				C496A6701CD8924800F017E5 /* LaunchScreen.storyboard */,
+				C496A6731CD8924800F017E5 /* Info.plist */,
+				C496A6621CD8924800F017E5 /* Supporting Files */,
+			);
+			path = GTQHuntForCity;
+			sourceTree = "<group>";
+		};
+		C496A6621CD8924800F017E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6631CD8924800F017E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C496A67B1CD8924800F017E5 /* GTQHuntForCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				C496A67C1CD8924800F017E5 /* GTQHuntForCityTests.m */,
+				C496A67E1CD8924800F017E5 /* Info.plist */,
+			);
+			path = GTQHuntForCityTests;
+			sourceTree = "<group>";
+		};
+		C496A6861CD8924800F017E5 /* GTQHuntForCityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */,
+				C496A6891CD8924800F017E5 /* Info.plist */,
+			);
+			path = GTQHuntForCityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C496A65E1CD8924800F017E5 /* GTQHuntForCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496A68C1CD8924800F017E5 /* Build configuration list for PBXNativeTarget "GTQHuntForCity" */;
+			buildPhases = (
+				C496A65B1CD8924800F017E5 /* Sources */,
+				C496A65C1CD8924800F017E5 /* Frameworks */,
+				C496A65D1CD8924800F017E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTQHuntForCity;
+			productName = GTQHuntForCity;
+			productReference = C496A65F1CD8924800F017E5 /* GTQHuntForCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C496A6771CD8924800F017E5 /* GTQHuntForCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496A68F1CD8924800F017E5 /* Build configuration list for PBXNativeTarget "GTQHuntForCityTests" */;
+			buildPhases = (
+				C496A6741CD8924800F017E5 /* Sources */,
+				C496A6751CD8924800F017E5 /* Frameworks */,
+				C496A6761CD8924800F017E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C496A67A1CD8924800F017E5 /* PBXTargetDependency */,
+			);
+			name = GTQHuntForCityTests;
+			productName = GTQHuntForCityTests;
+			productReference = C496A6781CD8924800F017E5 /* GTQHuntForCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C496A6821CD8924800F017E5 /* GTQHuntForCityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496A6921CD8924800F017E5 /* Build configuration list for PBXNativeTarget "GTQHuntForCityUITests" */;
+			buildPhases = (
+				C496A67F1CD8924800F017E5 /* Sources */,
+				C496A6801CD8924800F017E5 /* Frameworks */,
+				C496A6811CD8924800F017E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C496A6851CD8924800F017E5 /* PBXTargetDependency */,
+			);
+			name = GTQHuntForCityUITests;
+			productName = GTQHuntForCityUITests;
+			productReference = C496A6831CD8924800F017E5 /* GTQHuntForCityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C496A6571CD8924800F017E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ls;
+				TargetAttributes = {
+					C496A65E1CD8924800F017E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C496A6771CD8924800F017E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C496A65E1CD8924800F017E5;
+					};
+					C496A6821CD8924800F017E5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C496A65E1CD8924800F017E5;
+					};
+				};
+			};
+			buildConfigurationList = C496A65A1CD8924800F017E5 /* Build configuration list for PBXProject "GTQHuntForCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C496A6561CD8924800F017E5;
+			productRefGroup = C496A6601CD8924800F017E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C496A65E1CD8924800F017E5 /* GTQHuntForCity */,
+				C496A6771CD8924800F017E5 /* GTQHuntForCityTests */,
+				C496A6821CD8924800F017E5 /* GTQHuntForCityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C496A65D1CD8924800F017E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496A6721CD8924800F017E5 /* LaunchScreen.storyboard in Resources */,
+				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
+				C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496A6761CD8924800F017E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496A6811CD8924800F017E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C496A65B1CD8924800F017E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496A66A1CD8924800F017E5 /* ViewController.m in Sources */,
+				C496A6671CD8924800F017E5 /* AppDelegate.m in Sources */,
+				C496A6641CD8924800F017E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496A6741CD8924800F017E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496A67D1CD8924800F017E5 /* GTQHuntForCityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C496A67F1CD8924800F017E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496A6881CD8924800F017E5 /* GTQHuntForCityUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C496A67A1CD8924800F017E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C496A65E1CD8924800F017E5 /* GTQHuntForCity */;
+			targetProxy = C496A6791CD8924800F017E5 /* PBXContainerItemProxy */;
+		};
+		C496A6851CD8924800F017E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C496A65E1CD8924800F017E5 /* GTQHuntForCity */;
+			targetProxy = C496A6841CD8924800F017E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C496A66B1CD8924800F017E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C496A66C1CD8924800F017E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C496A6701CD8924800F017E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C496A6711CD8924800F017E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C496A68A1CD8924800F017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C496A68B1CD8924800F017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C496A68D1CD8924800F017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GTQHuntForCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C496A68E1CD8924800F017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GTQHuntForCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C496A6901CD8924800F017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTQHuntForCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTQHuntForCity.app/GTQHuntForCity";
+			};
+			name = Debug;
+		};
+		C496A6911CD8924800F017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTQHuntForCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTQHuntForCity.app/GTQHuntForCity";
+			};
+			name = Release;
+		};
+		C496A6931CD8924800F017E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTQHuntForCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTQHuntForCity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C496A6941CD8924800F017E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTQHuntForCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTQHuntForCity;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C496A65A1CD8924800F017E5 /* Build configuration list for PBXProject "GTQHuntForCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496A68A1CD8924800F017E5 /* Debug */,
+				C496A68B1CD8924800F017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C496A68C1CD8924800F017E5 /* Build configuration list for PBXNativeTarget "GTQHuntForCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496A68D1CD8924800F017E5 /* Debug */,
+				C496A68E1CD8924800F017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C496A68F1CD8924800F017E5 /* Build configuration list for PBXNativeTarget "GTQHuntForCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496A6901CD8924800F017E5 /* Debug */,
+				C496A6911CD8924800F017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C496A6921CD8924800F017E5 /* Build configuration list for PBXNativeTarget "GTQHuntForCityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C496A6931CD8924800F017E5 /* Debug */,
+				C496A6941CD8924800F017E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C496A6571CD8924800F017E5 /* Project object */;
+}
