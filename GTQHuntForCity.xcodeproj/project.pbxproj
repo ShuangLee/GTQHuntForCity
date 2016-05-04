@@ -15,12 +15,23 @@
 		C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C496A66E1CD8924800F017E5 /* Assets.xcassets */; };
 		C496A67D1CD8924800F017E5 /* GTQHuntForCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A67C1CD8924800F017E5 /* GTQHuntForCityTests.m */; };
 		C496A6881CD8924800F017E5 /* GTQHuntForCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */; };
-		C496A69E1CD8A98800F017E5 /* GTQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A69D1CD8A98800F017E5 /* GTQHomeViewController.m */; };
 		C496A6A11CD8A9C800F017E5 /* GTQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */; };
 		C496A6A51CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6A41CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m */; };
 		C496A6A81CD8B23000F017E5 /* UILabel+GTQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6A71CD8B23000F017E5 /* UILabel+GTQLabel.m */; };
 		C496A6AB1CD8B24700F017E5 /* UIColor+GTQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6AA1CD8B24700F017E5 /* UIColor+GTQColor.m */; };
 		C496A6AE1CD8B25700F017E5 /* UIButton+GTQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6AD1CD8B25700F017E5 /* UIButton+GTQButton.m */; };
+		C496A6B21CD9A3F300F017E5 /* GTQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6B11CD9A3F300F017E5 /* GTQHomeViewController.m */; };
+		C496A6B61CD9C90200F017E5 /* GTQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6B51CD9C90200F017E5 /* GTQNavigationController.m */; };
+		C496A6B91CD9CB9900F017E5 /* GTQLeftMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6B81CD9CB9900F017E5 /* GTQLeftMenuView.m */; };
+		C496A6BC1CD9CC4600F017E5 /* GTQCityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6BB1CD9CC4600F017E5 /* GTQCityButton.m */; };
+		C496A6BF1CD9CC5300F017E5 /* GTQMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6BE1CD9CC5300F017E5 /* GTQMenuButton.m */; };
+		C496A6C31CD9D4F200F017E5 /* GTQLeftMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A6C21CD9D4F200F017E5 /* GTQLeftMenuView.xib */; };
+		C496A6C91CD9E5BD00F017E5 /* GTQFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6C81CD9E5BD00F017E5 /* GTQFoundViewController.m */; };
+		C496A6CC1CD9E61B00F017E5 /* GTQUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6CB1CD9E61B00F017E5 /* GTQUserViewController.m */; };
+		C496A6CF1CD9E63500F017E5 /* GTQCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6CE1CD9E63500F017E5 /* GTQCollectionViewController.m */; };
+		C496A6D21CD9E65800F017E5 /* GTQBeenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6D11CD9E65800F017E5 /* GTQBeenViewController.m */; };
+		C496A6D51CD9E66800F017E5 /* GTQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6D41CD9E66800F017E5 /* GTQMessageViewController.m */; };
+		C496A6D81CD9E67D00F017E5 /* GTQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6D71CD9E67D00F017E5 /* GTQSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +70,6 @@
 		C496A6831CD8924800F017E5 /* GTQHuntForCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTQHuntForCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTQHuntForCityUITests.m; sourceTree = "<group>"; };
 		C496A6891CD8924800F017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C496A69C1CD8A98800F017E5 /* GTQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHomeViewController.h; sourceTree = "<group>"; };
-		C496A69D1CD8A98800F017E5 /* GTQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHomeViewController.m; sourceTree = "<group>"; };
 		C496A69F1CD8A9C800F017E5 /* GTQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQBaseViewController.h; sourceTree = "<group>"; };
 		C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQBaseViewController.m; sourceTree = "<group>"; };
 		C496A6A31CD8AB0700F017E5 /* UIBarButtonItem+quickInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+quickInit.h"; sourceTree = "<group>"; };
@@ -72,6 +81,29 @@
 		C496A6AC1CD8B25700F017E5 /* UIButton+GTQButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTQButton.h"; sourceTree = "<group>"; };
 		C496A6AD1CD8B25700F017E5 /* UIButton+GTQButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTQButton.m"; sourceTree = "<group>"; };
 		C496A6AF1CD8B5E900F017E5 /* GTQPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTQPrefixHeader.h; sourceTree = "<group>"; };
+		C496A6B01CD9A3F300F017E5 /* GTQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHomeViewController.h; sourceTree = "<group>"; };
+		C496A6B11CD9A3F300F017E5 /* GTQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHomeViewController.m; sourceTree = "<group>"; };
+		C496A6B41CD9C90200F017E5 /* GTQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQNavigationController.h; sourceTree = "<group>"; };
+		C496A6B51CD9C90200F017E5 /* GTQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQNavigationController.m; sourceTree = "<group>"; };
+		C496A6B71CD9CB9900F017E5 /* GTQLeftMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQLeftMenuView.h; sourceTree = "<group>"; };
+		C496A6B81CD9CB9900F017E5 /* GTQLeftMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQLeftMenuView.m; sourceTree = "<group>"; };
+		C496A6BA1CD9CC4600F017E5 /* GTQCityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQCityButton.h; sourceTree = "<group>"; };
+		C496A6BB1CD9CC4600F017E5 /* GTQCityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQCityButton.m; sourceTree = "<group>"; };
+		C496A6BD1CD9CC5300F017E5 /* GTQMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMenuButton.h; sourceTree = "<group>"; };
+		C496A6BE1CD9CC5300F017E5 /* GTQMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMenuButton.m; sourceTree = "<group>"; };
+		C496A6C21CD9D4F200F017E5 /* GTQLeftMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQLeftMenuView.xib; sourceTree = "<group>"; };
+		C496A6C71CD9E5BD00F017E5 /* GTQFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQFoundViewController.h; sourceTree = "<group>"; };
+		C496A6C81CD9E5BD00F017E5 /* GTQFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQFoundViewController.m; sourceTree = "<group>"; };
+		C496A6CA1CD9E61B00F017E5 /* GTQUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQUserViewController.h; sourceTree = "<group>"; };
+		C496A6CB1CD9E61B00F017E5 /* GTQUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQUserViewController.m; sourceTree = "<group>"; };
+		C496A6CD1CD9E63500F017E5 /* GTQCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQCollectionViewController.h; sourceTree = "<group>"; };
+		C496A6CE1CD9E63500F017E5 /* GTQCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQCollectionViewController.m; sourceTree = "<group>"; };
+		C496A6D01CD9E65800F017E5 /* GTQBeenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQBeenViewController.h; sourceTree = "<group>"; };
+		C496A6D11CD9E65800F017E5 /* GTQBeenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQBeenViewController.m; sourceTree = "<group>"; };
+		C496A6D31CD9E66800F017E5 /* GTQMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMessageViewController.h; sourceTree = "<group>"; };
+		C496A6D41CD9E66800F017E5 /* GTQMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMessageViewController.m; sourceTree = "<group>"; };
+		C496A6D61CD9E67D00F017E5 /* GTQSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQSettingViewController.h; sourceTree = "<group>"; };
+		C496A6D71CD9E67D00F017E5 /* GTQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,9 +208,23 @@
 		C496A6971CD8A80600F017E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C496A6C61CD9DBAF00F017E5 /* New Group */,
+				C496A6C51CD9DBAA00F017E5 /* Found */,
+				C496A6C41CD9DBA400F017E5 /* Home */,
+				C496A6B31CD9C8DA00F017E5 /* Base */,
 				C496A6981CD8A81300F017E5 /* Main */,
-				C496A69C1CD8A98800F017E5 /* GTQHomeViewController.h */,
-				C496A69D1CD8A98800F017E5 /* GTQHomeViewController.m */,
+				C496A6C71CD9E5BD00F017E5 /* GTQFoundViewController.h */,
+				C496A6C81CD9E5BD00F017E5 /* GTQFoundViewController.m */,
+				C496A6CA1CD9E61B00F017E5 /* GTQUserViewController.h */,
+				C496A6CB1CD9E61B00F017E5 /* GTQUserViewController.m */,
+				C496A6CD1CD9E63500F017E5 /* GTQCollectionViewController.h */,
+				C496A6CE1CD9E63500F017E5 /* GTQCollectionViewController.m */,
+				C496A6D01CD9E65800F017E5 /* GTQBeenViewController.h */,
+				C496A6D11CD9E65800F017E5 /* GTQBeenViewController.m */,
+				C496A6D31CD9E66800F017E5 /* GTQMessageViewController.h */,
+				C496A6D41CD9E66800F017E5 /* GTQMessageViewController.m */,
+				C496A6D61CD9E67D00F017E5 /* GTQSettingViewController.h */,
+				C496A6D71CD9E67D00F017E5 /* GTQSettingViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -189,8 +235,6 @@
 				C496A6991CD8A81E00F017E5 /* Controller */,
 				C496A69A1CD8A82700F017E5 /* View */,
 				C496A69B1CD8A83200F017E5 /* Model */,
-				C496A69F1CD8A9C800F017E5 /* GTQBaseViewController.h */,
-				C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -207,6 +251,13 @@
 		C496A69A1CD8A82700F017E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C496A6B71CD9CB9900F017E5 /* GTQLeftMenuView.h */,
+				C496A6B81CD9CB9900F017E5 /* GTQLeftMenuView.m */,
+				C496A6C21CD9D4F200F017E5 /* GTQLeftMenuView.xib */,
+				C496A6BA1CD9CC4600F017E5 /* GTQCityButton.h */,
+				C496A6BB1CD9CC4600F017E5 /* GTQCityButton.m */,
+				C496A6BD1CD9CC5300F017E5 /* GTQMenuButton.h */,
+				C496A6BE1CD9CC5300F017E5 /* GTQMenuButton.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -231,6 +282,40 @@
 				C496A6AD1CD8B25700F017E5 /* UIButton+GTQButton.m */,
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		C496A6B31CD9C8DA00F017E5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6B41CD9C90200F017E5 /* GTQNavigationController.h */,
+				C496A6B51CD9C90200F017E5 /* GTQNavigationController.m */,
+				C496A69F1CD8A9C800F017E5 /* GTQBaseViewController.h */,
+				C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C496A6C41CD9DBA400F017E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6B01CD9A3F300F017E5 /* GTQHomeViewController.h */,
+				C496A6B11CD9A3F300F017E5 /* GTQHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		C496A6C51CD9DBAA00F017E5 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Found;
+			sourceTree = "<group>";
+		};
+		C496A6C61CD9DBAF00F017E5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
@@ -346,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C496A6C31CD9D4F200F017E5 /* GTQLeftMenuView.xib in Resources */,
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
 				C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */,
 			);
@@ -409,11 +495,21 @@
 				C496A66A1CD8924800F017E5 /* GTQMainViewController.m in Sources */,
 				C496A6AE1CD8B25700F017E5 /* UIButton+GTQButton.m in Sources */,
 				C496A6671CD8924800F017E5 /* AppDelegate.m in Sources */,
+				C496A6B91CD9CB9900F017E5 /* GTQLeftMenuView.m in Sources */,
+				C496A6D81CD9E67D00F017E5 /* GTQSettingViewController.m in Sources */,
 				C496A6A51CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m in Sources */,
-				C496A69E1CD8A98800F017E5 /* GTQHomeViewController.m in Sources */,
 				C496A6A11CD8A9C800F017E5 /* GTQBaseViewController.m in Sources */,
+				C496A6CC1CD9E61B00F017E5 /* GTQUserViewController.m in Sources */,
+				C496A6D21CD9E65800F017E5 /* GTQBeenViewController.m in Sources */,
+				C496A6D51CD9E66800F017E5 /* GTQMessageViewController.m in Sources */,
+				C496A6BC1CD9CC4600F017E5 /* GTQCityButton.m in Sources */,
 				C496A6641CD8924800F017E5 /* main.m in Sources */,
 				C496A6A81CD8B23000F017E5 /* UILabel+GTQLabel.m in Sources */,
+				C496A6BF1CD9CC5300F017E5 /* GTQMenuButton.m in Sources */,
+				C496A6B61CD9C90200F017E5 /* GTQNavigationController.m in Sources */,
+				C496A6C91CD9E5BD00F017E5 /* GTQFoundViewController.m in Sources */,
+				C496A6B21CD9A3F300F017E5 /* GTQHomeViewController.m in Sources */,
+				C496A6CF1CD9E63500F017E5 /* GTQCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -569,6 +666,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

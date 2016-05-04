@@ -1,5 +1,5 @@
 //
-//  GTQHomeViewController.h
+//  GTQMessageViewController.h
 //  GTQHuntForCity
 //
 //  Created by 光头强 on 16/5/4.
@@ -8,6 +8,6 @@
 
 #import "GTQBaseViewController.h"
 
-@interface GTQHomeViewController : GTQBaseViewController
+@interface GTQMessageViewController : GTQBaseViewController
 
 @end

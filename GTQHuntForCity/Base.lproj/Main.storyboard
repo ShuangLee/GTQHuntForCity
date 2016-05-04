@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -18,21 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tO8-l2-4ya">
-                                <rect key="frame" x="20" y="20" width="560" height="580"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="tO8-l2-4ya">
+                                <rect key="frame" x="0.0" y="0.0" width="580" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tO8-l2-4ya" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1Ti-sy-rHf"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tO8-l2-4ya" secondAttribute="bottom" id="bsL-aP-kUF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tO8-l2-4ya" secondAttribute="trailing" id="jfY-9O-ag9"/>
-                            <constraint firstItem="tO8-l2-4ya" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n7x-RK-Efu"/>
+                            <constraint firstItem="tO8-l2-4ya" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7dW-Nm-EJz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tO8-l2-4ya" secondAttribute="bottom" id="SAw-4W-h9r"/>
+                            <constraint firstAttribute="trailing" secondItem="tO8-l2-4ya" secondAttribute="trailing" id="YXp-Kh-hft"/>
+                            <constraint firstItem="tO8-l2-4ya" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mGJ-67-hkN"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="423" y="298"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bgImage" width="194" height="186"/>
+    </resources>
 </document>

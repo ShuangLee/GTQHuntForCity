@@ -1,13 +1,13 @@
 //
-//  GTQHomeViewController.h
+//  GTQNavigationController.h
 //  GTQHuntForCity
 //
 //  Created by 光头强 on 16/5/4.
 //  Copyright © 2016年 Ls. All rights reserved.
 //
 
-#import "GTQBaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface GTQHomeViewController : GTQBaseViewController
+@interface GTQNavigationController : UINavigationController
 
 @end
