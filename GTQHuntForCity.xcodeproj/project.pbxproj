@@ -10,12 +10,17 @@
 		08143D9D4878DBD3F38DB2CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CAB39587B16DFF64E21BAA /* libPods.a */; };
 		C496A6641CD8924800F017E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6631CD8924800F017E5 /* main.m */; };
 		C496A6671CD8924800F017E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6661CD8924800F017E5 /* AppDelegate.m */; };
-		C496A66A1CD8924800F017E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6691CD8924800F017E5 /* ViewController.m */; };
+		C496A66A1CD8924800F017E5 /* GTQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6691CD8924800F017E5 /* GTQMainViewController.m */; };
 		C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496A66B1CD8924800F017E5 /* Main.storyboard */; };
 		C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C496A66E1CD8924800F017E5 /* Assets.xcassets */; };
-		C496A6721CD8924800F017E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496A6701CD8924800F017E5 /* LaunchScreen.storyboard */; };
 		C496A67D1CD8924800F017E5 /* GTQHuntForCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A67C1CD8924800F017E5 /* GTQHuntForCityTests.m */; };
 		C496A6881CD8924800F017E5 /* GTQHuntForCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */; };
+		C496A69E1CD8A98800F017E5 /* GTQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A69D1CD8A98800F017E5 /* GTQHomeViewController.m */; };
+		C496A6A11CD8A9C800F017E5 /* GTQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */; };
+		C496A6A51CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6A41CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m */; };
+		C496A6A81CD8B23000F017E5 /* UILabel+GTQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6A71CD8B23000F017E5 /* UILabel+GTQLabel.m */; };
+		C496A6AB1CD8B24700F017E5 /* UIColor+GTQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6AA1CD8B24700F017E5 /* UIColor+GTQColor.m */; };
+		C496A6AE1CD8B25700F017E5 /* UIButton+GTQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A6AD1CD8B25700F017E5 /* UIButton+GTQButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +48,10 @@
 		C496A6631CD8924800F017E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C496A6651CD8924800F017E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C496A6661CD8924800F017E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C496A6681CD8924800F017E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C496A6691CD8924800F017E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C496A6681CD8924800F017E5 /* GTQMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTQMainViewController.h; sourceTree = "<group>"; };
+		C496A6691CD8924800F017E5 /* GTQMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTQMainViewController.m; sourceTree = "<group>"; };
 		C496A66C1CD8924800F017E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C496A66E1CD8924800F017E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C496A6711CD8924800F017E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C496A6731CD8924800F017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C496A6781CD8924800F017E5 /* GTQHuntForCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTQHuntForCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C496A67C1CD8924800F017E5 /* GTQHuntForCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTQHuntForCityTests.m; sourceTree = "<group>"; };
@@ -55,6 +59,19 @@
 		C496A6831CD8924800F017E5 /* GTQHuntForCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTQHuntForCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C496A6871CD8924800F017E5 /* GTQHuntForCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTQHuntForCityUITests.m; sourceTree = "<group>"; };
 		C496A6891CD8924800F017E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C496A69C1CD8A98800F017E5 /* GTQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHomeViewController.h; sourceTree = "<group>"; };
+		C496A69D1CD8A98800F017E5 /* GTQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHomeViewController.m; sourceTree = "<group>"; };
+		C496A69F1CD8A9C800F017E5 /* GTQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQBaseViewController.h; sourceTree = "<group>"; };
+		C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQBaseViewController.m; sourceTree = "<group>"; };
+		C496A6A31CD8AB0700F017E5 /* UIBarButtonItem+quickInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+quickInit.h"; sourceTree = "<group>"; };
+		C496A6A41CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+quickInit.m"; sourceTree = "<group>"; };
+		C496A6A61CD8B23000F017E5 /* UILabel+GTQLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GTQLabel.h"; sourceTree = "<group>"; };
+		C496A6A71CD8B23000F017E5 /* UILabel+GTQLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GTQLabel.m"; sourceTree = "<group>"; };
+		C496A6A91CD8B24700F017E5 /* UIColor+GTQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GTQColor.h"; sourceTree = "<group>"; };
+		C496A6AA1CD8B24700F017E5 /* UIColor+GTQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GTQColor.m"; sourceTree = "<group>"; };
+		C496A6AC1CD8B25700F017E5 /* UIButton+GTQButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTQButton.h"; sourceTree = "<group>"; };
+		C496A6AD1CD8B25700F017E5 /* UIButton+GTQButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTQButton.m"; sourceTree = "<group>"; };
+		C496A6AF1CD8B5E900F017E5 /* GTQPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTQPrefixHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,13 +134,12 @@
 		C496A6611CD8924800F017E5 /* GTQHuntForCity */ = {
 			isa = PBXGroup;
 			children = (
+				C496A6A21CD8AA9300F017E5 /* Category */,
+				C496A6971CD8A80600F017E5 /* Classes */,
 				C496A6651CD8924800F017E5 /* AppDelegate.h */,
 				C496A6661CD8924800F017E5 /* AppDelegate.m */,
-				C496A6681CD8924800F017E5 /* ViewController.h */,
-				C496A6691CD8924800F017E5 /* ViewController.m */,
 				C496A66B1CD8924800F017E5 /* Main.storyboard */,
 				C496A66E1CD8924800F017E5 /* Assets.xcassets */,
-				C496A6701CD8924800F017E5 /* LaunchScreen.storyboard */,
 				C496A6731CD8924800F017E5 /* Info.plist */,
 				C496A6621CD8924800F017E5 /* Supporting Files */,
 			);
@@ -134,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				C496A6631CD8924800F017E5 /* main.m */,
+				C496A6AF1CD8B5E900F017E5 /* GTQPrefixHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +171,66 @@
 				C496A6891CD8924800F017E5 /* Info.plist */,
 			);
 			path = GTQHuntForCityUITests;
+			sourceTree = "<group>";
+		};
+		C496A6971CD8A80600F017E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6981CD8A81300F017E5 /* Main */,
+				C496A69C1CD8A98800F017E5 /* GTQHomeViewController.h */,
+				C496A69D1CD8A98800F017E5 /* GTQHomeViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C496A6981CD8A81300F017E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6991CD8A81E00F017E5 /* Controller */,
+				C496A69A1CD8A82700F017E5 /* View */,
+				C496A69B1CD8A83200F017E5 /* Model */,
+				C496A69F1CD8A9C800F017E5 /* GTQBaseViewController.h */,
+				C496A6A01CD8A9C800F017E5 /* GTQBaseViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C496A6991CD8A81E00F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6681CD8924800F017E5 /* GTQMainViewController.h */,
+				C496A6691CD8924800F017E5 /* GTQMainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A69A1CD8A82700F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A69B1CD8A83200F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C496A6A21CD8AA9300F017E5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C496A6A31CD8AB0700F017E5 /* UIBarButtonItem+quickInit.h */,
+				C496A6A41CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m */,
+				C496A6A61CD8B23000F017E5 /* UILabel+GTQLabel.h */,
+				C496A6A71CD8B23000F017E5 /* UILabel+GTQLabel.m */,
+				C496A6A91CD8B24700F017E5 /* UIColor+GTQColor.h */,
+				C496A6AA1CD8B24700F017E5 /* UIColor+GTQColor.m */,
+				C496A6AC1CD8B25700F017E5 /* UIButton+GTQButton.h */,
+				C496A6AD1CD8B25700F017E5 /* UIButton+GTQButton.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
@@ -269,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C496A6721CD8924800F017E5 /* LaunchScreen.storyboard in Resources */,
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
 				C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */,
 			);
@@ -329,9 +405,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C496A66A1CD8924800F017E5 /* ViewController.m in Sources */,
+				C496A6AB1CD8B24700F017E5 /* UIColor+GTQColor.m in Sources */,
+				C496A66A1CD8924800F017E5 /* GTQMainViewController.m in Sources */,
+				C496A6AE1CD8B25700F017E5 /* UIButton+GTQButton.m in Sources */,
 				C496A6671CD8924800F017E5 /* AppDelegate.m in Sources */,
+				C496A6A51CD8AB0700F017E5 /* UIBarButtonItem+quickInit.m in Sources */,
+				C496A69E1CD8A98800F017E5 /* GTQHomeViewController.m in Sources */,
+				C496A6A11CD8A9C800F017E5 /* GTQBaseViewController.m in Sources */,
 				C496A6641CD8924800F017E5 /* main.m in Sources */,
+				C496A6A81CD8B23000F017E5 /* UILabel+GTQLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,14 +455,6 @@
 				C496A66C1CD8924800F017E5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C496A6701CD8924800F017E5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C496A6711CD8924800F017E5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -471,7 +545,11 @@
 			baseConfigurationReference = 49EEF66DCED2C0C4DD3FE2B6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Lshuang/Desktop/GTQHuntForCity/GTQHuntForCity/GTQPrefixHeader.h;
 				INFOPLIST_FILE = GTQHuntForCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,7 +561,11 @@
 			baseConfigurationReference = 217AF2A41D217F83764919B2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Lshuang/Desktop/GTQHuntForCity/GTQHuntForCity/GTQPrefixHeader.h;
 				INFOPLIST_FILE = GTQHuntForCity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dream.GTQHuntForCity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
