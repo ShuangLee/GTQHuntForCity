@@ -32,7 +32,6 @@
 		C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7431CD9F8FB00F017E5 /* GTQMessageViewController.m */; };
 		C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7461CD9F8FB00F017E5 /* GTQSettingViewController.m */; };
 		C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7491CD9F8FB00F017E5 /* GTQUserViewController.m */; };
-		C496A7511CD9FB0100F017E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7501CD9FB0100F017E5 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,8 +104,6 @@
 		C496A7461CD9F8FB00F017E5 /* GTQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSettingViewController.m; sourceTree = "<group>"; };
 		C496A7481CD9F8FB00F017E5 /* GTQUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQUserViewController.h; sourceTree = "<group>"; };
 		C496A7491CD9F8FB00F017E5 /* GTQUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQUserViewController.m; sourceTree = "<group>"; };
-		C496A74F1CD9FB0100F017E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C496A7501CD9FB0100F017E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,19 +255,9 @@
 		C496A70D1CD9F69500F017E5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				C496A7271CD9F89A00F017E5 /* GTQBaseViewController.h */,
-				C496A7281CD9F89A00F017E5 /* GTQBaseViewController.m */,
-				C496A7291CD9F89A00F017E5 /* GTQCityButton.h */,
-				C496A72A1CD9F89A00F017E5 /* GTQCityButton.m */,
-				C496A72B1CD9F89A00F017E5 /* GTQLeftMenuView.h */,
-				C496A72C1CD9F89A00F017E5 /* GTQLeftMenuView.m */,
-				C496A72D1CD9F89A00F017E5 /* GTQLeftMenuView.xib */,
-				C496A72E1CD9F89A00F017E5 /* GTQMainViewController.h */,
-				C496A72F1CD9F89A00F017E5 /* GTQMainViewController.m */,
-				C496A7301CD9F89A00F017E5 /* GTQMenuButton.h */,
-				C496A7311CD9F89A00F017E5 /* GTQMenuButton.m */,
-				C496A7321CD9F89A00F017E5 /* GTQNavigationController.h */,
-				C496A7331CD9F89A00F017E5 /* GTQNavigationController.m */,
+				C496A7541CD9FB9900F017E5 /* Model */,
+				C496A7531CD9FB9300F017E5 /* View */,
+				C496A7521CD9FB8400F017E5 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -280,8 +267,6 @@
 			children = (
 				C496A71E1CD9F7C800F017E5 /* AppDelegate.h */,
 				C496A71F1CD9F7C800F017E5 /* AppDelegate.m */,
-				C496A74F1CD9FB0100F017E5 /* ViewController.h */,
-				C496A7501CD9FB0100F017E5 /* ViewController.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -329,6 +314,40 @@
 				C496A7491CD9F8FB00F017E5 /* GTQUserViewController.m */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		C496A7521CD9FB8400F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7321CD9F89A00F017E5 /* GTQNavigationController.h */,
+				C496A7331CD9F89A00F017E5 /* GTQNavigationController.m */,
+				C496A7271CD9F89A00F017E5 /* GTQBaseViewController.h */,
+				C496A7281CD9F89A00F017E5 /* GTQBaseViewController.m */,
+				C496A72E1CD9F89A00F017E5 /* GTQMainViewController.h */,
+				C496A72F1CD9F89A00F017E5 /* GTQMainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A7531CD9FB9300F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7291CD9F89A00F017E5 /* GTQCityButton.h */,
+				C496A72A1CD9F89A00F017E5 /* GTQCityButton.m */,
+				C496A72B1CD9F89A00F017E5 /* GTQLeftMenuView.h */,
+				C496A72C1CD9F89A00F017E5 /* GTQLeftMenuView.m */,
+				C496A72D1CD9F89A00F017E5 /* GTQLeftMenuView.xib */,
+				C496A7301CD9F89A00F017E5 /* GTQMenuButton.h */,
+				C496A7311CD9F89A00F017E5 /* GTQMenuButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A7541CD9FB9900F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
@@ -518,7 +537,6 @@
 				C496A7231CD9F7FE00F017E5 /* GTQHomeViewController.m in Sources */,
 				C496A7261CD9F83F00F017E5 /* GTQFoundViewController.m in Sources */,
 				C496A7341CD9F89A00F017E5 /* GTQBaseViewController.m in Sources */,
-				C496A7511CD9FB0100F017E5 /* ViewController.m in Sources */,
 				C496A6641CD8924800F017E5 /* main.m in Sources */,
 				C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */,
 				C496A73A1CD9F89A00F017E5 /* GTQNavigationController.m in Sources */,

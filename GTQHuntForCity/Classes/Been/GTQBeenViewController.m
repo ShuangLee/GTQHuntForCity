@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  GTQBeenViewController.m
 //  GTQHuntForCity
 //
 //  Created by 光头强 on 16/5/4.
 //  Copyright © 2016年 Ls. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "GTQBeenViewController.h"
 
-@interface ViewController ()
+@interface GTQBeenViewController ()
 
 @end
 
-@implementation ViewController
+@implementation GTQBeenViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
