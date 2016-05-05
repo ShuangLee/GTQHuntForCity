@@ -39,6 +39,14 @@
 		C496A7661CDAEADF00F017E5 /* GTQRmdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7641CDAEADF00F017E5 /* GTQRmdTableViewCell.m */; };
 		C496A7671CDAEADF00F017E5 /* GTQRmdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7651CDAEADF00F017E5 /* GTQRmdTableViewCell.xib */; };
 		C496A7691CDAFBC900F017E5 /* GTQRmdHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7681CDAFBC900F017E5 /* GTQRmdHeaderView.xib */; };
+		C496A76C1CDB2F2A00F017E5 /* GTQDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A76B1CDB2F2A00F017E5 /* GTQDetailViewController.m */; };
+		C496A7731CDB2F8A00F017E5 /* GTQHeaderPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7721CDB2F8A00F017E5 /* GTQHeaderPushViewController.m */; };
+		C496A7761CDB325E00F017E5 /* GTQCustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7751CDB325E00F017E5 /* GTQCustomNavBar.m */; };
+		C496A7791CDB339200F017E5 /* GTQCustomNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7781CDB339200F017E5 /* GTQCustomNavTitleView.m */; };
+		C496A77C1CDB3CC500F017E5 /* GTQUnLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A77B1CDB3CC500F017E5 /* GTQUnLoginView.m */; };
+		C496A77E1CDB3DDE00F017E5 /* GTQUnLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A77D1CDB3DDE00F017E5 /* GTQUnLoginView.xib */; };
+		C496A7811CDB428900F017E5 /* GTQPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7801CDB428900F017E5 /* GTQPromptView.m */; };
+		C496A7831CDB42DF00F017E5 /* GTQPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7821CDB42DF00F017E5 /* GTQPromptView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +130,20 @@
 		C496A7641CDAEADF00F017E5 /* GTQRmdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQRmdTableViewCell.m; sourceTree = "<group>"; };
 		C496A7651CDAEADF00F017E5 /* GTQRmdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQRmdTableViewCell.xib; sourceTree = "<group>"; };
 		C496A7681CDAFBC900F017E5 /* GTQRmdHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQRmdHeaderView.xib; sourceTree = "<group>"; };
+		C496A76A1CDB2F2A00F017E5 /* GTQDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQDetailViewController.h; sourceTree = "<group>"; };
+		C496A76B1CDB2F2A00F017E5 /* GTQDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQDetailViewController.m; sourceTree = "<group>"; };
+		C496A7711CDB2F8A00F017E5 /* GTQHeaderPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHeaderPushViewController.h; sourceTree = "<group>"; };
+		C496A7721CDB2F8A00F017E5 /* GTQHeaderPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHeaderPushViewController.m; sourceTree = "<group>"; };
+		C496A7741CDB325E00F017E5 /* GTQCustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQCustomNavBar.h; sourceTree = "<group>"; };
+		C496A7751CDB325E00F017E5 /* GTQCustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQCustomNavBar.m; sourceTree = "<group>"; };
+		C496A7771CDB339200F017E5 /* GTQCustomNavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQCustomNavTitleView.h; sourceTree = "<group>"; };
+		C496A7781CDB339200F017E5 /* GTQCustomNavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQCustomNavTitleView.m; sourceTree = "<group>"; };
+		C496A77A1CDB3CC500F017E5 /* GTQUnLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQUnLoginView.h; sourceTree = "<group>"; };
+		C496A77B1CDB3CC500F017E5 /* GTQUnLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQUnLoginView.m; sourceTree = "<group>"; };
+		C496A77D1CDB3DDE00F017E5 /* GTQUnLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQUnLoginView.xib; sourceTree = "<group>"; };
+		C496A77F1CDB428800F017E5 /* GTQPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQPromptView.h; sourceTree = "<group>"; };
+		C496A7801CDB428900F017E5 /* GTQPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQPromptView.m; sourceTree = "<group>"; };
+		C496A7821CDB42DF00F017E5 /* GTQPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQPromptView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +287,7 @@
 		C496A70C1CD9F69500F017E5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C496A76D1CDB2F3700F017E5 /* Detail */,
 				C496A7571CDAE66400F017E5 /* Controller */,
 				C496A7561CDAE65F00F017E5 /* View */,
 				C496A7551CDAE65800F017E5 /* Model */,
@@ -359,6 +382,12 @@
 				C496A72D1CD9F89A00F017E5 /* GTQLeftMenuView.xib */,
 				C496A7301CD9F89A00F017E5 /* GTQMenuButton.h */,
 				C496A7311CD9F89A00F017E5 /* GTQMenuButton.m */,
+				C496A77A1CDB3CC500F017E5 /* GTQUnLoginView.h */,
+				C496A77B1CDB3CC500F017E5 /* GTQUnLoginView.m */,
+				C496A77D1CDB3DDE00F017E5 /* GTQUnLoginView.xib */,
+				C496A77F1CDB428800F017E5 /* GTQPromptView.h */,
+				C496A7801CDB428900F017E5 /* GTQPromptView.m */,
+				C496A7821CDB42DF00F017E5 /* GTQPromptView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -390,6 +419,10 @@
 				C496A7641CDAEADF00F017E5 /* GTQRmdTableViewCell.m */,
 				C496A7651CDAEADF00F017E5 /* GTQRmdTableViewCell.xib */,
 				C496A7681CDAFBC900F017E5 /* GTQRmdHeaderView.xib */,
+				C496A7741CDB325E00F017E5 /* GTQCustomNavBar.h */,
+				C496A7751CDB325E00F017E5 /* GTQCustomNavBar.m */,
+				C496A7771CDB339200F017E5 /* GTQCustomNavTitleView.h */,
+				C496A7781CDB339200F017E5 /* GTQCustomNavTitleView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -399,8 +432,43 @@
 			children = (
 				C496A7211CD9F7FE00F017E5 /* GTQHomeViewController.h */,
 				C496A7221CD9F7FE00F017E5 /* GTQHomeViewController.m */,
+				C496A7711CDB2F8A00F017E5 /* GTQHeaderPushViewController.h */,
+				C496A7721CDB2F8A00F017E5 /* GTQHeaderPushViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A76D1CDB2F3700F017E5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7701CDB2F5300F017E5 /* View */,
+				C496A76F1CDB2F4E00F017E5 /* Model */,
+				C496A76E1CDB2F4600F017E5 /* Controller */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		C496A76E1CDB2F4600F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A76A1CDB2F2A00F017E5 /* GTQDetailViewController.h */,
+				C496A76B1CDB2F2A00F017E5 /* GTQDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A76F1CDB2F4E00F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C496A7701CDB2F5300F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
@@ -516,8 +584,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C496A77E1CDB3DDE00F017E5 /* GTQUnLoginView.xib in Resources */,
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
 				C496A7371CD9F89A00F017E5 /* GTQLeftMenuView.xib in Resources */,
+				C496A7831CDB42DF00F017E5 /* GTQPromptView.xib in Resources */,
 				C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */,
 				C496A75F1CDAE84400F017E5 /* HomeDatas.plist in Resources */,
 				C496A7691CDAFBC900F017E5 /* GTQRmdHeaderView.xib in Resources */,
@@ -580,13 +650,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C496A7201CD9F7C800F017E5 /* AppDelegate.m in Sources */,
+				C496A7731CDB2F8A00F017E5 /* GTQHeaderPushViewController.m in Sources */,
 				C496A6E91CD9F5C300F017E5 /* UIBarButtonItem+quickInit.m in Sources */,
+				C496A76C1CDB2F2A00F017E5 /* GTQDetailViewController.m in Sources */,
 				C496A7361CD9F89A00F017E5 /* GTQLeftMenuView.m in Sources */,
 				C496A74A1CD9F8FB00F017E5 /* GTQBeenViewController.m in Sources */,
 				C496A75D1CDAE6F100F017E5 /* GTQHomeCellModel.m in Sources */,
 				C496A6EB1CD9F5C300F017E5 /* UIColor+GTQColor.m in Sources */,
 				C496A7391CD9F89A00F017E5 /* GTQMenuButton.m in Sources */,
 				C496A7381CD9F89A00F017E5 /* GTQMainViewController.m in Sources */,
+				C496A77C1CDB3CC500F017E5 /* GTQUnLoginView.m in Sources */,
 				C496A75A1CDAE67D00F017E5 /* GTQHomeModel.m in Sources */,
 				C496A6EA1CD9F5C300F017E5 /* UIButton+GTQButton.m in Sources */,
 				C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */,
@@ -594,12 +667,15 @@
 				C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */,
 				C496A7231CD9F7FE00F017E5 /* GTQHomeViewController.m in Sources */,
 				C496A7261CD9F83F00F017E5 /* GTQFoundViewController.m in Sources */,
+				C496A7791CDB339200F017E5 /* GTQCustomNavTitleView.m in Sources */,
 				C496A7661CDAEADF00F017E5 /* GTQRmdTableViewCell.m in Sources */,
 				C496A7341CD9F89A00F017E5 /* GTQBaseViewController.m in Sources */,
 				C496A6641CD8924800F017E5 /* main.m in Sources */,
 				C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */,
+				C496A7811CDB428900F017E5 /* GTQPromptView.m in Sources */,
 				C496A7621CDAEABF00F017E5 /* GTQRmdHeaderView.m in Sources */,
 				C496A73A1CD9F89A00F017E5 /* GTQNavigationController.m in Sources */,
+				C496A7761CDB325E00F017E5 /* GTQCustomNavBar.m in Sources */,
 				C496A6EC1CD9F5C300F017E5 /* UILabel+GTQLabel.m in Sources */,
 				C496A74B1CD9F8FB00F017E5 /* GTQCollectionViewController.m in Sources */,
 			);

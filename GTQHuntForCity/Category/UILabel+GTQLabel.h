@@ -10,5 +10,5 @@
 
 @interface UILabel (GTQLabel)
 // 快速创建指定字体大小和颜色的label
-+ (UILabel *)createLabel:(UIColor *)color fontSize:(CGFloat)fontSize;
++ (UILabel *)createLabel:(UIColor *)color font:(UIFont *)font;
 @end

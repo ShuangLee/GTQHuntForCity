@@ -36,11 +36,12 @@
      这三种都无法改变背景色.
      */
     //正解如下, 在UITableViewHeaderFooterView子类中赋值给backgroundView属性并设置需求的背景颜色
-    self.backgroundView = ({
-        UIView * view = [[UIView alloc] initWithFrame:self.bounds];
-        view.backgroundColor = [UIColor colorWithHexString:headModel.color alpha:1];
-        view;
-    });
+//    self.backgroundView = ({
+//        UIView * view = [[UIView alloc] initWithFrame:self.bounds];
+//        view.backgroundColor = [UIColor colorWithHexString:headModel.color alpha:1];
+//        view;
+//    });
+    self.backgroundColor = [UIColor colorWithHexString:headModel.color alpha:1];
 }
 
 @end

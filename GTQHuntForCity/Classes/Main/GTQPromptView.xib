@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GTQPromptView">
+            <rect key="frame" x="0.0" y="0.0" width="296" height="175"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="功能暂时未实现，敬请期待" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFZ-aH-Dr7">
+                    <rect key="frame" x="10" y="145" width="276" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SF4-NI-AJq">
+                    <rect key="frame" x="261" y="10" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="dJe-wu-hY6"/>
+                        <constraint firstAttribute="width" constant="25" id="f09-dC-5Km"/>
+                    </constraints>
+                    <state key="normal" image="searchList_btn_delete_6P"/>
+                    <connections>
+                        <action selector="deleteBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="znE-sb-kNT"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userIcon" translatesAutoresizingMaskIntoConstraints="NO" id="fKW-n6-IxQ">
+                    <rect key="frame" x="88" y="15" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="d5u-N1-hIJ"/>
+                        <constraint firstAttribute="width" constant="120" id="gsR-bs-o3Z"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XFZ-aH-Dr7" secondAttribute="trailing" constant="10" id="3bM-sn-n9v"/>
+                <constraint firstItem="fKW-n6-IxQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8zj-g0-CBW"/>
+                <constraint firstItem="XFZ-aH-Dr7" firstAttribute="top" secondItem="fKW-n6-IxQ" secondAttribute="bottom" constant="10" id="Lfv-7x-ZD0"/>
+                <constraint firstItem="fKW-n6-IxQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="Rgs-ck-FS0"/>
+                <constraint firstItem="XFZ-aH-Dr7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Wxu-XQ-d4n"/>
+                <constraint firstAttribute="trailing" secondItem="SF4-NI-AJq" secondAttribute="trailing" constant="10" id="hUS-KC-ch3"/>
+                <constraint firstItem="SF4-NI-AJq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="lFc-xp-ypJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="fKW-n6-IxQ" id="zwL-Ly-7JN"/>
+            </connections>
+            <point key="canvasLocation" x="68" y="-17.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="searchList_btn_delete_6P" width="33" height="33"/>
+        <image name="userIcon" width="510" height="510"/>
+    </resources>
+</document>

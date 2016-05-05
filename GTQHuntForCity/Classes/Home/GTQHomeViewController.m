@@ -11,6 +11,8 @@
 #import "GTQRmdHeaderView.h"
 #import "GTQHomeModel.h"
 #import "GTQHomeCellModel.h"
+#import "GTQDetailViewController.h"
+#import "GTQHeaderPushViewController.h"
 
 //推荐cell的高度
 #define GTQRmdCellHeight 210.0
@@ -131,8 +133,15 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     GTQHomeModel *headModel = self.datas[section];
     GTQRmdHeaderView *headView = [GTQRmdHeaderView headViewWith:headModel];
+    
+    //添加手势点击事件
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(headViewTap:)];
+    [headView addGestureRecognizer:tap];
+    
     return headView;
 }
+
+
 
 //返回每个headView的高度
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -160,4 +169,19 @@
     return _datas;
 }
 
+#pragma mark - HeadView点击手势
+- (void)headViewTap:(UITapGestureRecognizer *)tap {
+    GTQRmdHeaderView *headView = (GTQRmdHeaderView *)tap.view;
+    GTQHeaderPushViewController *vc = [[GTQHeaderPushViewController alloc] init];
+    vc.headModel = headView.headModel;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - 推荐tableview点击
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    GTQDetailViewController *detailVC = [[GTQDetailViewController alloc] init];
+    
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
 @end

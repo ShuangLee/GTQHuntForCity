@@ -11,11 +11,13 @@
 @implementation UILabel (GTQLabel)
 /*
  *  快速创建指定字体大小和颜色的label
+ *  默认剧中显示
  */
-+ (UILabel *)createLabel:(UIColor *)color fontSize:(CGFloat)fontSize {
++ (UILabel *)createLabel:(UIColor *)color font:(UIFont *)font {
     UILabel *label = [[UILabel alloc] init];
     label.textColor = color;
-    label.font = [UIFont systemFontOfSize:fontSize];
+    label.font = font;
+    label.textAlignment = NSTextAlignmentCenter;
     return label;
 }
 @end

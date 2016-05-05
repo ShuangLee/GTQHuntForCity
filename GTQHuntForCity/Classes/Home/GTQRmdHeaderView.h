@@ -14,7 +14,9 @@
 //    if (headView == nil) {
 //        headView =  [GTQRmdHeaderView headViewWith:headModel];
 //    }
-@interface GTQRmdHeaderView : UITableViewHeaderFooterView
+//   此处模拟数据 先不继承UITabelHeaderFooterView
+
+@interface GTQRmdHeaderView : UIView
 //headView的模型，重写set方法
 @property (nonatomic, strong) GTQHomeModel *headModel;
 //便利构造方法

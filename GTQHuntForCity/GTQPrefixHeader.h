@@ -13,6 +13,7 @@
 
 #import "UIBarButtonItem+quickInit.h"
 #import "UIColor+GTQColor.h"
+#import "UILabel+GTQLabel.h"
 
 //全局的绿色主题
 #pragma mark - color functions

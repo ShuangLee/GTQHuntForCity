@@ -9,6 +9,14 @@
 #import "UIButton+GTQButton.h"
 
 @implementation UIButton (GTQButton)
+
+// 快速创建指定图片的btn
++ (UIButton *)createBtnWithImage:(NSString *)imageName {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];    
+    return btn;
+}
+
 // 快速创建指定图文的btn
 + (UIButton *)createBtnWithImage:(NSString *)imageName title:(NSString *)title {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
