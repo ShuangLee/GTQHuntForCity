@@ -71,6 +71,10 @@
 
 #pragma mark - 手势
 //拖拽Action
+/*
+ 拖动手势是给主控制器添加一个UIPanGestureRecognizer手势(称为pan),当pan开始拖拽时,计算拖动的距离来按比例执行动画,根据手势的状态(pan.status ==UIGestureRecognizerStateEnded)停止时拖动的距离计算出该停留在哪里的位置,需要注意的是这里得记录下当前导航控制器是处于哪种状态,给导航控制器自定义个属性isScale来记录
+ 原文链接：http://www.jianshu.com/p/8b0d694d1c69
+ */
 - (void)pan:(UIPanGestureRecognizer *)pan {
     CGFloat moveX = [pan translationInView:self.view].x;
     
@@ -108,7 +112,7 @@
                     //将状态改为已经缩放
                     self.showViewController.isScale = YES;
                     //手动点击按钮添加遮盖
-                    [self.showViewController rightBarButtonItemClick];
+                    [self.showViewController leftBarButtonItemClick];
                 }];
                 
             } else  {//X轴移动不够一半 回到原位,不是缩放状态
@@ -201,7 +205,7 @@
     };
     
     //自动点击遮盖btn
-    [self.showViewController coverClick];
+    [self.showViewController coverClick];//恢复视图
 }
 
 - (void)didReceiveMemoryWarning {

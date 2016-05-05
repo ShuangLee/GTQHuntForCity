@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="recommendCell" rowHeight="210" id="KGk-i7-Jjw" customClass="GTQRmdTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="210"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="209"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="PJS-ZG-9Jy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="五星级大酒店牛逼哄哄的转战烤肉届发展啊" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPj-KU-vDs">
+                        <rect key="frame" x="10" y="139" width="380" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xd-NZ-HuX">
+                        <rect key="frame" x="28" y="170" width="221" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="S5t-oT-oiU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="index_navigation_nearby" translatesAutoresizingMaskIntoConstraints="NO" id="2a4-z3-awJ">
+                        <rect key="frame" x="10" y="170" width="13" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="myp-fp-Z3S"/>
+                            <constraint firstAttribute="width" constant="13" id="qQZ-tI-Rqn"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="discoverNav_collectionHeart" translatesAutoresizingMaskIntoConstraints="NO" id="ySq-LO-YYH">
+                        <rect key="frame" x="259" y="175" width="15" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="CIA-dH-3Qp"/>
+                            <constraint firstAttribute="width" constant="15" id="soS-3S-FjK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNC-tS-GkG">
+                        <rect key="frame" x="279" y="174" width="36" height="16"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PNC-tS-GkG" secondAttribute="trailing" constant="5" id="1R6-24-rsj"/>
+                    <constraint firstItem="gPj-KU-vDs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1VQ-ss-81b"/>
+                    <constraint firstAttribute="bottom" secondItem="ySq-LO-YYH" secondAttribute="bottom" constant="21" id="2EZ-Au-2ii"/>
+                    <constraint firstItem="2a4-z3-awJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="89h-8S-OWM"/>
+                    <constraint firstAttribute="bottom" secondItem="PNC-tS-GkG" secondAttribute="bottom" constant="19" id="AG7-Y5-vjI"/>
+                    <constraint firstAttribute="bottom" secondItem="2a4-z3-awJ" secondAttribute="bottom" constant="19" id="EAH-ib-ixZ"/>
+                    <constraint firstItem="ySq-LO-YYH" firstAttribute="leading" secondItem="1xd-NZ-HuX" secondAttribute="trailing" constant="10" id="H82-MD-UIP"/>
+                    <constraint firstItem="1xd-NZ-HuX" firstAttribute="leading" secondItem="2a4-z3-awJ" secondAttribute="trailing" constant="5" id="HPO-wn-uHA"/>
+                    <constraint firstAttribute="trailing" secondItem="PJS-ZG-9Jy" secondAttribute="trailing" id="QCd-bM-zYS"/>
+                    <constraint firstItem="PNC-tS-GkG" firstAttribute="leading" secondItem="ySq-LO-YYH" secondAttribute="trailing" constant="5" id="cfY-FX-ojS"/>
+                    <constraint firstAttribute="bottom" secondItem="1xd-NZ-HuX" secondAttribute="bottom" constant="18" id="gCk-hu-eQA"/>
+                    <constraint firstItem="PJS-ZG-9Jy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="oRi-Ei-5u1"/>
+                    <constraint firstItem="PJS-ZG-9Jy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sgL-to-Zdz"/>
+                    <constraint firstItem="1xd-NZ-HuX" firstAttribute="top" secondItem="gPj-KU-vDs" secondAttribute="bottom" constant="7" id="tG7-yU-Dra"/>
+                    <constraint firstAttribute="bottom" secondItem="PJS-ZG-9Jy" secondAttribute="bottom" constant="9" id="xvP-2g-1SX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="1xd-NZ-HuX" id="A8b-3p-Ass"/>
+                <outlet property="backImageView" destination="PJS-ZG-9Jy" id="0pW-JZ-i18"/>
+                <outlet property="nameLabel" destination="gPj-KU-vDs" id="BYZ-ad-XcB"/>
+                <outlet property="praiseLabel" destination="PNC-tS-GkG" id="09P-1A-BRJ"/>
+            </connections>
+            <point key="canvasLocation" x="288" y="304"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="discoverNav_collectionHeart" width="22" height="19"/>
+        <image name="food" width="720" height="284"/>
+        <image name="index_navigation_nearby" width="20" height="29"/>
+    </resources>
+</document>

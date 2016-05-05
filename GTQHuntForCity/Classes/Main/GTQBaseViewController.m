@@ -29,6 +29,9 @@
     
 }
 
+/*
+ 抽屉的效果是通过给导航控制器的view做形变动画完成的transform的X轴的位移以及整体的缩放效果,这里由于每个导航控制器的功能一样，这里抽取了共同的特点封装了一个基类导航控制器，基类拥有点击左边的按钮完成变形和恢复的功能
+ */
 - (void)leftBarButtonItemClick {
     //添加遮盖,拦截用户操作
     _coverBtn = [UIButton buttonWithType:UIButtonTypeCustom];

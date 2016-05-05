@@ -20,5 +20,5 @@ typedef void (^coverDidRemove)();
 - (void)coverClick;
 
 /** 点击缩放按钮 */
-- (void)rightBarButtonItemClick;
+- (void)leftBarButtonItemClick;
 @end

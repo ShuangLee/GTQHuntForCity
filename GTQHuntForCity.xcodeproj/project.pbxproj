@@ -32,6 +32,13 @@
 		C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7431CD9F8FB00F017E5 /* GTQMessageViewController.m */; };
 		C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7461CD9F8FB00F017E5 /* GTQSettingViewController.m */; };
 		C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7491CD9F8FB00F017E5 /* GTQUserViewController.m */; };
+		C496A75A1CDAE67D00F017E5 /* GTQHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7591CDAE67D00F017E5 /* GTQHomeModel.m */; };
+		C496A75D1CDAE6F100F017E5 /* GTQHomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A75C1CDAE6F100F017E5 /* GTQHomeCellModel.m */; };
+		C496A75F1CDAE84400F017E5 /* HomeDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = C496A75E1CDAE84400F017E5 /* HomeDatas.plist */; };
+		C496A7621CDAEABF00F017E5 /* GTQRmdHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7611CDAEABF00F017E5 /* GTQRmdHeaderView.m */; };
+		C496A7661CDAEADF00F017E5 /* GTQRmdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7641CDAEADF00F017E5 /* GTQRmdTableViewCell.m */; };
+		C496A7671CDAEADF00F017E5 /* GTQRmdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7651CDAEADF00F017E5 /* GTQRmdTableViewCell.xib */; };
+		C496A7691CDAFBC900F017E5 /* GTQRmdHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7681CDAFBC900F017E5 /* GTQRmdHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +111,17 @@
 		C496A7461CD9F8FB00F017E5 /* GTQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSettingViewController.m; sourceTree = "<group>"; };
 		C496A7481CD9F8FB00F017E5 /* GTQUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQUserViewController.h; sourceTree = "<group>"; };
 		C496A7491CD9F8FB00F017E5 /* GTQUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQUserViewController.m; sourceTree = "<group>"; };
+		C496A7581CDAE67D00F017E5 /* GTQHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHomeModel.h; sourceTree = "<group>"; };
+		C496A7591CDAE67D00F017E5 /* GTQHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHomeModel.m; sourceTree = "<group>"; };
+		C496A75B1CDAE6F100F017E5 /* GTQHomeCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHomeCellModel.h; sourceTree = "<group>"; };
+		C496A75C1CDAE6F100F017E5 /* GTQHomeCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHomeCellModel.m; sourceTree = "<group>"; };
+		C496A75E1CDAE84400F017E5 /* HomeDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeDatas.plist; sourceTree = "<group>"; };
+		C496A7601CDAEABF00F017E5 /* GTQRmdHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQRmdHeaderView.h; sourceTree = "<group>"; };
+		C496A7611CDAEABF00F017E5 /* GTQRmdHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQRmdHeaderView.m; sourceTree = "<group>"; };
+		C496A7631CDAEADF00F017E5 /* GTQRmdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQRmdTableViewCell.h; sourceTree = "<group>"; };
+		C496A7641CDAEADF00F017E5 /* GTQRmdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQRmdTableViewCell.m; sourceTree = "<group>"; };
+		C496A7651CDAEADF00F017E5 /* GTQRmdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQRmdTableViewCell.xib; sourceTree = "<group>"; };
+		C496A7681CDAFBC900F017E5 /* GTQRmdHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQRmdHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +197,7 @@
 		C496A6621CD8924800F017E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C496A75E1CDAE84400F017E5 /* HomeDatas.plist */,
 				C496A6631CD8924800F017E5 /* main.m */,
 				C496A6AF1CD8B5E900F017E5 /* GTQPrefixHeader.h */,
 			);
@@ -246,8 +265,9 @@
 		C496A70C1CD9F69500F017E5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C496A7211CD9F7FE00F017E5 /* GTQHomeViewController.h */,
-				C496A7221CD9F7FE00F017E5 /* GTQHomeViewController.m */,
+				C496A7571CDAE66400F017E5 /* Controller */,
+				C496A7561CDAE65F00F017E5 /* View */,
+				C496A7551CDAE65800F017E5 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -348,6 +368,39 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		C496A7551CDAE65800F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7581CDAE67D00F017E5 /* GTQHomeModel.h */,
+				C496A7591CDAE67D00F017E5 /* GTQHomeModel.m */,
+				C496A75B1CDAE6F100F017E5 /* GTQHomeCellModel.h */,
+				C496A75C1CDAE6F100F017E5 /* GTQHomeCellModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C496A7561CDAE65F00F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7601CDAEABF00F017E5 /* GTQRmdHeaderView.h */,
+				C496A7611CDAEABF00F017E5 /* GTQRmdHeaderView.m */,
+				C496A7631CDAEADF00F017E5 /* GTQRmdTableViewCell.h */,
+				C496A7641CDAEADF00F017E5 /* GTQRmdTableViewCell.m */,
+				C496A7651CDAEADF00F017E5 /* GTQRmdTableViewCell.xib */,
+				C496A7681CDAFBC900F017E5 /* GTQRmdHeaderView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A7571CDAE66400F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7211CD9F7FE00F017E5 /* GTQHomeViewController.h */,
+				C496A7221CD9F7FE00F017E5 /* GTQHomeViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
@@ -466,6 +519,9 @@
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
 				C496A7371CD9F89A00F017E5 /* GTQLeftMenuView.xib in Resources */,
 				C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */,
+				C496A75F1CDAE84400F017E5 /* HomeDatas.plist in Resources */,
+				C496A7691CDAFBC900F017E5 /* GTQRmdHeaderView.xib in Resources */,
+				C496A7671CDAEADF00F017E5 /* GTQRmdTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,18 +583,22 @@
 				C496A6E91CD9F5C300F017E5 /* UIBarButtonItem+quickInit.m in Sources */,
 				C496A7361CD9F89A00F017E5 /* GTQLeftMenuView.m in Sources */,
 				C496A74A1CD9F8FB00F017E5 /* GTQBeenViewController.m in Sources */,
+				C496A75D1CDAE6F100F017E5 /* GTQHomeCellModel.m in Sources */,
 				C496A6EB1CD9F5C300F017E5 /* UIColor+GTQColor.m in Sources */,
 				C496A7391CD9F89A00F017E5 /* GTQMenuButton.m in Sources */,
 				C496A7381CD9F89A00F017E5 /* GTQMainViewController.m in Sources */,
+				C496A75A1CDAE67D00F017E5 /* GTQHomeModel.m in Sources */,
 				C496A6EA1CD9F5C300F017E5 /* UIButton+GTQButton.m in Sources */,
 				C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */,
 				C496A7351CD9F89A00F017E5 /* GTQCityButton.m in Sources */,
 				C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */,
 				C496A7231CD9F7FE00F017E5 /* GTQHomeViewController.m in Sources */,
 				C496A7261CD9F83F00F017E5 /* GTQFoundViewController.m in Sources */,
+				C496A7661CDAEADF00F017E5 /* GTQRmdTableViewCell.m in Sources */,
 				C496A7341CD9F89A00F017E5 /* GTQBaseViewController.m in Sources */,
 				C496A6641CD8924800F017E5 /* main.m in Sources */,
 				C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */,
+				C496A7621CDAEABF00F017E5 /* GTQRmdHeaderView.m in Sources */,
 				C496A73A1CD9F89A00F017E5 /* GTQNavigationController.m in Sources */,
 				C496A6EC1CD9F5C300F017E5 /* UILabel+GTQLabel.m in Sources */,
 				C496A74B1CD9F8FB00F017E5 /* GTQCollectionViewController.m in Sources */,
