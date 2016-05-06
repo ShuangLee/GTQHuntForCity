@@ -47,6 +47,22 @@
 		C496A77E1CDB3DDE00F017E5 /* GTQUnLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A77D1CDB3DDE00F017E5 /* GTQUnLoginView.xib */; };
 		C496A7811CDB428900F017E5 /* GTQPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7801CDB428900F017E5 /* GTQPromptView.m */; };
 		C496A7831CDB42DF00F017E5 /* GTQPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7821CDB42DF00F017E5 /* GTQPromptView.xib */; };
+		C496A7861CDB4E2F00F017E5 /* GTQShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7851CDB4E2F00F017E5 /* GTQShowViewController.m */; };
+		C496A7891CDB4E9A00F017E5 /* GTQConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7881CDB4E9A00F017E5 /* GTQConditionView.m */; };
+		C496A78C1CDB4EBD00F017E5 /* GTQRenderBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A78B1CDB4EBD00F017E5 /* GTQRenderBlurView.m */; };
+		C496A7901CDB4F0B00F017E5 /* GTQMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A78F1CDB4F0B00F017E5 /* GTQMapViewController.m */; };
+		C496A7971CDB503E00F017E5 /* detailJson in Resources */ = {isa = PBXBuildFile; fileRef = C496A7911CDB503E00F017E5 /* detailJson */; };
+		C496A7981CDB503E00F017E5 /* foundData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C496A7921CDB503E00F017E5 /* foundData.plist */; };
+		C496A7991CDB503E00F017E5 /* blurData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C496A7931CDB503E00F017E5 /* blurData.plist */; };
+		C496A79A1CDB503E00F017E5 /* MessageData.plist in Resources */ = {isa = PBXBuildFile; fileRef = C496A7941CDB503E00F017E5 /* MessageData.plist */; };
+		C496A79B1CDB503E00F017E5 /* CellDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = C496A7951CDB503E00F017E5 /* CellDatas.plist */; };
+		C496A79C1CDB503E00F017E5 /* infoDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = C496A7961CDB503E00F017E5 /* infoDatas.plist */; };
+		C496A7A21CDC313400F017E5 /* GTQFoundCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7A11CDC313400F017E5 /* GTQFoundCellModel.m */; };
+		C496A7A61CDC33BC00F017E5 /* GTQFoundViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7A51CDC33BC00F017E5 /* GTQFoundViewLayout.m */; };
+		C496A7AA1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7A81CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m */; };
+		C496A7AB1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7A91CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib */; };
+		C496A7AE1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7AD1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.m */; };
+		C496A7B11CDC444B00F017E5 /* GTQFoundHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7B01CDC444B00F017E5 /* GTQFoundHeaderModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +160,31 @@
 		C496A77F1CDB428800F017E5 /* GTQPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQPromptView.h; sourceTree = "<group>"; };
 		C496A7801CDB428900F017E5 /* GTQPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQPromptView.m; sourceTree = "<group>"; };
 		C496A7821CDB42DF00F017E5 /* GTQPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQPromptView.xib; sourceTree = "<group>"; };
+		C496A7841CDB4E2F00F017E5 /* GTQShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQShowViewController.h; sourceTree = "<group>"; };
+		C496A7851CDB4E2F00F017E5 /* GTQShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQShowViewController.m; sourceTree = "<group>"; };
+		C496A7871CDB4E9A00F017E5 /* GTQConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQConditionView.h; sourceTree = "<group>"; };
+		C496A7881CDB4E9A00F017E5 /* GTQConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQConditionView.m; sourceTree = "<group>"; };
+		C496A78A1CDB4EBD00F017E5 /* GTQRenderBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQRenderBlurView.h; sourceTree = "<group>"; };
+		C496A78B1CDB4EBD00F017E5 /* GTQRenderBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQRenderBlurView.m; sourceTree = "<group>"; };
+		C496A78E1CDB4F0B00F017E5 /* GTQMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMapViewController.h; sourceTree = "<group>"; };
+		C496A78F1CDB4F0B00F017E5 /* GTQMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMapViewController.m; sourceTree = "<group>"; };
+		C496A7911CDB503E00F017E5 /* detailJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = detailJson; sourceTree = "<group>"; };
+		C496A7921CDB503E00F017E5 /* foundData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foundData.plist; sourceTree = "<group>"; };
+		C496A7931CDB503E00F017E5 /* blurData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blurData.plist; sourceTree = "<group>"; };
+		C496A7941CDB503E00F017E5 /* MessageData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MessageData.plist; sourceTree = "<group>"; };
+		C496A7951CDB503E00F017E5 /* CellDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CellDatas.plist; sourceTree = "<group>"; };
+		C496A7961CDB503E00F017E5 /* infoDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = infoDatas.plist; sourceTree = "<group>"; };
+		C496A7A01CDC313400F017E5 /* GTQFoundCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQFoundCellModel.h; sourceTree = "<group>"; };
+		C496A7A11CDC313400F017E5 /* GTQFoundCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQFoundCellModel.m; sourceTree = "<group>"; };
+		C496A7A41CDC33BC00F017E5 /* GTQFoundViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQFoundViewLayout.h; sourceTree = "<group>"; };
+		C496A7A51CDC33BC00F017E5 /* GTQFoundViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQFoundViewLayout.m; sourceTree = "<group>"; };
+		C496A7A71CDC35FA00F017E5 /* GTQFoundCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQFoundCollectionViewCell.h; sourceTree = "<group>"; };
+		C496A7A81CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQFoundCollectionViewCell.m; sourceTree = "<group>"; };
+		C496A7A91CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQFoundCollectionViewCell.xib; sourceTree = "<group>"; };
+		C496A7AC1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		C496A7AD1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		C496A7AF1CDC444B00F017E5 /* GTQFoundHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQFoundHeaderModel.h; sourceTree = "<group>"; };
+		C496A7B01CDC444B00F017E5 /* GTQFoundHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQFoundHeaderModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +260,12 @@
 		C496A6621CD8924800F017E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C496A7911CDB503E00F017E5 /* detailJson */,
+				C496A7921CDB503E00F017E5 /* foundData.plist */,
+				C496A7931CDB503E00F017E5 /* blurData.plist */,
+				C496A7941CDB503E00F017E5 /* MessageData.plist */,
+				C496A7951CDB503E00F017E5 /* CellDatas.plist */,
+				C496A7961CDB503E00F017E5 /* infoDatas.plist */,
 				C496A75E1CDAE84400F017E5 /* HomeDatas.plist */,
 				C496A6631CD8924800F017E5 /* main.m */,
 				C496A6AF1CD8B5E900F017E5 /* GTQPrefixHeader.h */,
@@ -262,6 +309,7 @@
 		C496A6ED1CD9F69500F017E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C496A78D1CDB4EF200F017E5 /* Map */,
 				C496A73B1CD9F8FB00F017E5 /* Been */,
 				C496A73E1CD9F8FB00F017E5 /* Collection */,
 				C496A7411CD9F8FB00F017E5 /* Message */,
@@ -278,8 +326,10 @@
 		C496A6F01CD9F69500F017E5 /* Found */ = {
 			isa = PBXGroup;
 			children = (
-				C496A7241CD9F83F00F017E5 /* GTQFoundViewController.h */,
-				C496A7251CD9F83F00F017E5 /* GTQFoundViewController.m */,
+				C496A7A31CDC338700F017E5 /* collectionLayout */,
+				C496A79F1CDC30A200F017E5 /* Model */,
+				C496A79E1CDC309D00F017E5 /* View */,
+				C496A79D1CDC309500F017E5 /* Controller */,
 			);
 			path = Found;
 			sourceTree = "<group>";
@@ -368,6 +418,8 @@
 				C496A7281CD9F89A00F017E5 /* GTQBaseViewController.m */,
 				C496A72E1CD9F89A00F017E5 /* GTQMainViewController.h */,
 				C496A72F1CD9F89A00F017E5 /* GTQMainViewController.m */,
+				C496A7841CDB4E2F00F017E5 /* GTQShowViewController.h */,
+				C496A7851CDB4E2F00F017E5 /* GTQShowViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -388,6 +440,10 @@
 				C496A77F1CDB428800F017E5 /* GTQPromptView.h */,
 				C496A7801CDB428900F017E5 /* GTQPromptView.m */,
 				C496A7821CDB42DF00F017E5 /* GTQPromptView.xib */,
+				C496A7871CDB4E9A00F017E5 /* GTQConditionView.h */,
+				C496A7881CDB4E9A00F017E5 /* GTQConditionView.m */,
+				C496A78A1CDB4EBD00F017E5 /* GTQRenderBlurView.h */,
+				C496A78B1CDB4EBD00F017E5 /* GTQRenderBlurView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -469,6 +525,56 @@
 			children = (
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		C496A78D1CDB4EF200F017E5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C496A78E1CDB4F0B00F017E5 /* GTQMapViewController.h */,
+				C496A78F1CDB4F0B00F017E5 /* GTQMapViewController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C496A79D1CDC309500F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7241CD9F83F00F017E5 /* GTQFoundViewController.h */,
+				C496A7251CD9F83F00F017E5 /* GTQFoundViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A79E1CDC309D00F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7A71CDC35FA00F017E5 /* GTQFoundCollectionViewCell.h */,
+				C496A7A81CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m */,
+				C496A7A91CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib */,
+				C496A7AC1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.h */,
+				C496A7AD1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A79F1CDC30A200F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7A01CDC313400F017E5 /* GTQFoundCellModel.h */,
+				C496A7A11CDC313400F017E5 /* GTQFoundCellModel.m */,
+				C496A7AF1CDC444B00F017E5 /* GTQFoundHeaderModel.h */,
+				C496A7B01CDC444B00F017E5 /* GTQFoundHeaderModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C496A7A31CDC338700F017E5 /* collectionLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7A41CDC33BC00F017E5 /* GTQFoundViewLayout.h */,
+				C496A7A51CDC33BC00F017E5 /* GTQFoundViewLayout.m */,
+			);
+			name = collectionLayout;
 			sourceTree = "<group>";
 		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
@@ -586,12 +692,19 @@
 			files = (
 				C496A77E1CDB3DDE00F017E5 /* GTQUnLoginView.xib in Resources */,
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
+				C496A7AB1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib in Resources */,
+				C496A79B1CDB503E00F017E5 /* CellDatas.plist in Resources */,
 				C496A7371CD9F89A00F017E5 /* GTQLeftMenuView.xib in Resources */,
+				C496A7971CDB503E00F017E5 /* detailJson in Resources */,
 				C496A7831CDB42DF00F017E5 /* GTQPromptView.xib in Resources */,
 				C496A66D1CD8924800F017E5 /* Main.storyboard in Resources */,
 				C496A75F1CDAE84400F017E5 /* HomeDatas.plist in Resources */,
 				C496A7691CDAFBC900F017E5 /* GTQRmdHeaderView.xib in Resources */,
 				C496A7671CDAEADF00F017E5 /* GTQRmdTableViewCell.xib in Resources */,
+				C496A79C1CDB503E00F017E5 /* infoDatas.plist in Resources */,
+				C496A7981CDB503E00F017E5 /* foundData.plist in Resources */,
+				C496A79A1CDB503E00F017E5 /* MessageData.plist in Resources */,
+				C496A7991CDB503E00F017E5 /* blurData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +764,8 @@
 			files = (
 				C496A7201CD9F7C800F017E5 /* AppDelegate.m in Sources */,
 				C496A7731CDB2F8A00F017E5 /* GTQHeaderPushViewController.m in Sources */,
+				C496A7AE1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.m in Sources */,
+				C496A7901CDB4F0B00F017E5 /* GTQMapViewController.m in Sources */,
 				C496A6E91CD9F5C300F017E5 /* UIBarButtonItem+quickInit.m in Sources */,
 				C496A76C1CDB2F2A00F017E5 /* GTQDetailViewController.m in Sources */,
 				C496A7361CD9F89A00F017E5 /* GTQLeftMenuView.m in Sources */,
@@ -659,24 +774,31 @@
 				C496A6EB1CD9F5C300F017E5 /* UIColor+GTQColor.m in Sources */,
 				C496A7391CD9F89A00F017E5 /* GTQMenuButton.m in Sources */,
 				C496A7381CD9F89A00F017E5 /* GTQMainViewController.m in Sources */,
+				C496A78C1CDB4EBD00F017E5 /* GTQRenderBlurView.m in Sources */,
 				C496A77C1CDB3CC500F017E5 /* GTQUnLoginView.m in Sources */,
 				C496A75A1CDAE67D00F017E5 /* GTQHomeModel.m in Sources */,
+				C496A7861CDB4E2F00F017E5 /* GTQShowViewController.m in Sources */,
 				C496A6EA1CD9F5C300F017E5 /* UIButton+GTQButton.m in Sources */,
 				C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */,
 				C496A7351CD9F89A00F017E5 /* GTQCityButton.m in Sources */,
 				C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */,
 				C496A7231CD9F7FE00F017E5 /* GTQHomeViewController.m in Sources */,
 				C496A7261CD9F83F00F017E5 /* GTQFoundViewController.m in Sources */,
+				C496A7891CDB4E9A00F017E5 /* GTQConditionView.m in Sources */,
 				C496A7791CDB339200F017E5 /* GTQCustomNavTitleView.m in Sources */,
+				C496A7A21CDC313400F017E5 /* GTQFoundCellModel.m in Sources */,
 				C496A7661CDAEADF00F017E5 /* GTQRmdTableViewCell.m in Sources */,
 				C496A7341CD9F89A00F017E5 /* GTQBaseViewController.m in Sources */,
 				C496A6641CD8924800F017E5 /* main.m in Sources */,
 				C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */,
 				C496A7811CDB428900F017E5 /* GTQPromptView.m in Sources */,
 				C496A7621CDAEABF00F017E5 /* GTQRmdHeaderView.m in Sources */,
+				C496A7AA1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m in Sources */,
 				C496A73A1CD9F89A00F017E5 /* GTQNavigationController.m in Sources */,
+				C496A7A61CDC33BC00F017E5 /* GTQFoundViewLayout.m in Sources */,
 				C496A7761CDB325E00F017E5 /* GTQCustomNavBar.m in Sources */,
 				C496A6EC1CD9F5C300F017E5 /* UILabel+GTQLabel.m in Sources */,
+				C496A7B11CDC444B00F017E5 /* GTQFoundHeaderModel.m in Sources */,
 				C496A74B1CD9F8FB00F017E5 /* GTQCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

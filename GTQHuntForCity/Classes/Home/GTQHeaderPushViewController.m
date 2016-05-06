@@ -23,7 +23,7 @@
     self.view.backgroundColor = RGBACOLOR(51, 52, 53, 1);
     
     //初始化UI
-    [self setUI];
+    [self setupUI];
     
     //初始化山寨导航条
     [self setNavigitionItem];
@@ -40,10 +40,11 @@
     [self.view addSubview:self.navBar];
 }
 
-- (void)setUI
+- (void)setupUI
 {
     //不需要系统自动处理顶部内容伸缩
     self.automaticallyAdjustsScrollViewInsets = NO;
+    
     
 }
 

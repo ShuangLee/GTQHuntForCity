@@ -25,6 +25,10 @@
 #define GTQScaleTopMargin 35
 //抽屉拉出来右边剩余比例
 #define GTQZoomScaleRight 0.14
+//推荐cell的高度
+#define GTQRmdCellHeight 210.0
+//推荐headView的高度
+#define GTQRmdHeadViewHeight 60.0
 
 #pragma clang diagnostic ignored "-W#warnings"
 

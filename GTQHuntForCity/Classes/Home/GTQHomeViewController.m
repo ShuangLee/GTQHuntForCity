@@ -14,11 +14,6 @@
 #import "GTQDetailViewController.h"
 #import "GTQHeaderPushViewController.h"
 
-//推荐cell的高度
-#define GTQRmdCellHeight 210.0
-//推荐headView的高度
-#define GTQRmdHeadViewHeight 60.0
-
 @interface GTQHomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 //** 导航titileView */
 @property (nonatomic, weak) UISegmentedControl *titleView;
