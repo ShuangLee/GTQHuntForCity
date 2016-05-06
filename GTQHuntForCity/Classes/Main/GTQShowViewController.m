@@ -18,11 +18,6 @@
 #import "GTQMapViewController.h"
 
 @interface GTQShowViewController ()<UITableViewDataSource, UITableViewDelegate,GTQConditionViewDelegate, GTQRenderBlurViewDelegate>
-/** 显示的tableView */
-@property (nonatomic, strong) UITableView *tableView;
-
-/** 顶部的选着条件按钮的View */
-@property (nonatomic, strong) GTQConditionView *conditionView;
 
 /** 用来放当前模糊的imageView */
 @property (nonatomic, strong) GTQRenderBlurView *blurImageView;

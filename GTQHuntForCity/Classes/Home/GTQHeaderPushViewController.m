@@ -9,6 +9,7 @@
 #import "GTQHeaderPushViewController.h"
 #import "GTQCustomNavBar.h"
 #import "GTQUnLoginView.h"
+#import "GTQConditionView.h"
 
 @interface GTQHeaderPushViewController ()<GTQCustomNavBarDelegate>
 /** 自定义view代替系统导航条 */
@@ -45,7 +46,16 @@
     //不需要系统自动处理顶部内容伸缩
     self.automaticallyAdjustsScrollViewInsets = NO;
     
+    //设置tableView的背景色
+    self.tableView.backgroundColor = RGBCOLOR(51, 52, 53);
     
+    //设置tableView的frame把系统
+    self.tableView.frame = CGRectMake(0, 64, ScreenWidth, ScreenHeight - 64);
+    
+    //调整布局
+    CGRect cRect = self.conditionView.frame;
+    cRect.origin.y = cRect.origin.y + 64;
+    self.conditionView.frame = cRect;
 }
 
 //隐藏系统导航条

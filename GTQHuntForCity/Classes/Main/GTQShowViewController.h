@@ -10,5 +10,10 @@
 @class GTQConditionView, GTQRenderBlurView;
 
 @interface GTQShowViewController : UIViewController
+/** 显示的tableView */
+@property (nonatomic, strong) UITableView *tableView;
+
+/** 顶部的选着条件按钮的View */
+@property (nonatomic, strong) GTQConditionView *conditionView;
 
 @end

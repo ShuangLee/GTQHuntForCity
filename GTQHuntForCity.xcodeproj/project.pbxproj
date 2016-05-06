@@ -67,6 +67,7 @@
 		C496A7B71CDC6DFB00F017E5 /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7B61CDC6DFB00F017E5 /* UIImage+Size.m */; };
 		C496A7BE1CDC8BC100F017E5 /* GTQBlurCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7BD1CDC8BC100F017E5 /* GTQBlurCell.m */; };
 		C496A7C01CDC8BDA00F017E5 /* GTQBlurCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A7BF1CDC8BDA00F017E5 /* GTQBlurCell.xib */; };
+		C496A7C71CDC9D0000F017E5 /* GTQSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A7C61CDC9D0000F017E5 /* GTQSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +197,8 @@
 		C496A7BC1CDC8BC100F017E5 /* GTQBlurCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQBlurCell.h; sourceTree = "<group>"; };
 		C496A7BD1CDC8BC100F017E5 /* GTQBlurCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQBlurCell.m; sourceTree = "<group>"; };
 		C496A7BF1CDC8BDA00F017E5 /* GTQBlurCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQBlurCell.xib; sourceTree = "<group>"; };
+		C496A7C51CDC9D0000F017E5 /* GTQSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQSearchViewController.h; sourceTree = "<group>"; };
+		C496A7C61CDC9D0000F017E5 /* GTQSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +325,7 @@
 		C496A6ED1CD9F69500F017E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C496A7C11CDC9CD700F017E5 /* Search */,
 				C496A78D1CDB4EF200F017E5 /* Map */,
 				C496A73B1CD9F8FB00F017E5 /* Been */,
 				C496A73E1CD9F8FB00F017E5 /* Collection */,
@@ -603,6 +607,39 @@
 			name = Tool;
 			sourceTree = "<group>";
 		};
+		C496A7C11CDC9CD700F017E5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7C41CDC9CE900F017E5 /* Model */,
+				C496A7C31CDC9CE500F017E5 /* View */,
+				C496A7C21CDC9CDC00F017E5 /* Controller */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C496A7C21CDC9CDC00F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7C51CDC9D0000F017E5 /* GTQSearchViewController.h */,
+				C496A7C61CDC9D0000F017E5 /* GTQSearchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A7C31CDC9CE500F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A7C41CDC9CE900F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -798,6 +835,7 @@
 				C496A7361CD9F89A00F017E5 /* GTQLeftMenuView.m in Sources */,
 				C496A74A1CD9F8FB00F017E5 /* GTQBeenViewController.m in Sources */,
 				C496A75D1CDAE6F100F017E5 /* GTQHomeCellModel.m in Sources */,
+				C496A7C71CDC9D0000F017E5 /* GTQSearchViewController.m in Sources */,
 				C496A6EB1CD9F5C300F017E5 /* UIColor+GTQColor.m in Sources */,
 				C496A7391CD9F89A00F017E5 /* GTQMenuButton.m in Sources */,
 				C496A7381CD9F89A00F017E5 /* GTQMainViewController.m in Sources */,
