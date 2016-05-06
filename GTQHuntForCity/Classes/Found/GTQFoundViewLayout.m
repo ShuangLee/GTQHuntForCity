@@ -4,7 +4,7 @@
 //
 //  Created by 光头强 on 16/5/6.
 //  Copyright © 2016年 Ls. All rights reserved.
-//
+//  UICollectionView的layout
 
 #import "GTQFoundViewLayout.h"
 
@@ -26,5 +26,6 @@
     //内边距
     CGFloat marginLR = (ScreenWidth - 3 * itemW) / 4;
     self.sectionInset = UIEdgeInsetsMake(20, marginLR, 20, marginLR);
+    
 }
 @end
