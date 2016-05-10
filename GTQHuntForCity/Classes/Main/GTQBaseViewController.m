@@ -7,6 +7,7 @@
 //  控制器基类
 
 #import "GTQBaseViewController.h"
+#import "GTQSearchViewController.h"
 
 #define GTQScaleAnimationDuration 0.3
 
@@ -26,7 +27,8 @@
 
 #pragma mark - 导航条按钮点击 
 - (void)rightBarButtonItemClick {
-    
+    GTQSearchViewController *search = [[GTQSearchViewController alloc] init];
+    [self.navigationController pushViewController:search animated:YES];
 }
 
 /*

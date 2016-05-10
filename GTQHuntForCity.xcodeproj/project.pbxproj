@@ -92,6 +92,12 @@
 		C496A80B1CE0981D00F017E5 /* GTQUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A80A1CE0981D00F017E5 /* GTQUserInfoView.xib */; };
 		C496A80D1CE09D1E00F017E5 /* gender in Resources */ = {isa = PBXBuildFile; fileRef = C496A80C1CE09D1E00F017E5 /* gender */; };
 		C496A8101CE1824600F017E5 /* GTQUserInfosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A80F1CE1824600F017E5 /* GTQUserInfosViewController.m */; };
+		C496A8131CE1B53000F017E5 /* GTQSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8121CE1B53000F017E5 /* GTQSearchTextField.m */; };
+		C496A8161CE1B64100F017E5 /* GTQSearchHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8151CE1B64100F017E5 /* GTQSearchHeadView.m */; };
+		C496A81A1CE1B73F00F017E5 /* GTQSearchHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8181CE1B73F00F017E5 /* GTQSearchHistoryCell.m */; };
+		C496A81B1CE1B73F00F017E5 /* GTQSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A8191CE1B73F00F017E5 /* GTQSearchHistoryCell.xib */; };
+		C496A81F1CE1BB0E00F017E5 /* HotSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A81D1CE1BB0D00F017E5 /* HotSearchCell.m */; };
+		C496A8221CE1BB9100F017E5 /* HotSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A8211CE1BB9100F017E5 /* HotSearchCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -263,6 +269,16 @@
 		C496A80C1CE09D1E00F017E5 /* gender */ = {isa = PBXFileReference; lastKnownFileType = file; path = gender; sourceTree = "<group>"; };
 		C496A80E1CE1824600F017E5 /* GTQUserInfosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQUserInfosViewController.h; sourceTree = "<group>"; };
 		C496A80F1CE1824600F017E5 /* GTQUserInfosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQUserInfosViewController.m; sourceTree = "<group>"; };
+		C496A8111CE1B53000F017E5 /* GTQSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQSearchTextField.h; sourceTree = "<group>"; };
+		C496A8121CE1B53000F017E5 /* GTQSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSearchTextField.m; sourceTree = "<group>"; };
+		C496A8141CE1B64100F017E5 /* GTQSearchHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQSearchHeadView.h; sourceTree = "<group>"; };
+		C496A8151CE1B64100F017E5 /* GTQSearchHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSearchHeadView.m; sourceTree = "<group>"; };
+		C496A8171CE1B73F00F017E5 /* GTQSearchHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQSearchHistoryCell.h; sourceTree = "<group>"; };
+		C496A8181CE1B73F00F017E5 /* GTQSearchHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSearchHistoryCell.m; sourceTree = "<group>"; };
+		C496A8191CE1B73F00F017E5 /* GTQSearchHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQSearchHistoryCell.xib; sourceTree = "<group>"; };
+		C496A81C1CE1BB0D00F017E5 /* HotSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSearchCell.h; sourceTree = "<group>"; };
+		C496A81D1CE1BB0D00F017E5 /* HotSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSearchCell.m; sourceTree = "<group>"; };
+		C496A8211CE1BB9100F017E5 /* HotSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotSearchCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -733,6 +749,16 @@
 		C496A7C31CDC9CE500F017E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C496A8111CE1B53000F017E5 /* GTQSearchTextField.h */,
+				C496A8121CE1B53000F017E5 /* GTQSearchTextField.m */,
+				C496A8141CE1B64100F017E5 /* GTQSearchHeadView.h */,
+				C496A8151CE1B64100F017E5 /* GTQSearchHeadView.m */,
+				C496A8171CE1B73F00F017E5 /* GTQSearchHistoryCell.h */,
+				C496A8181CE1B73F00F017E5 /* GTQSearchHistoryCell.m */,
+				C496A8191CE1B73F00F017E5 /* GTQSearchHistoryCell.xib */,
+				C496A81C1CE1BB0D00F017E5 /* HotSearchCell.h */,
+				C496A81D1CE1BB0D00F017E5 /* HotSearchCell.m */,
+				C496A8211CE1BB9100F017E5 /* HotSearchCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -864,9 +890,11 @@
 				C496A7F21CE079F500F017E5 /* GTQRmdPictureCell.xib in Resources */,
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
 				C496A7EB1CE0791000F017E5 /* GTQDetailRmdTableHeadView.xib in Resources */,
+				C496A8221CE1BB9100F017E5 /* HotSearchCell.xib in Resources */,
 				C496A7AB1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib in Resources */,
 				C496A8061CE08EFC00F017E5 /* GTQBeenAndCollectView.xib in Resources */,
 				C496A79B1CDB503E00F017E5 /* CellDatas.plist in Resources */,
+				C496A81B1CE1B73F00F017E5 /* GTQSearchHistoryCell.xib in Resources */,
 				C496A7371CD9F89A00F017E5 /* GTQLeftMenuView.xib in Resources */,
 				C496A80D1CE09D1E00F017E5 /* gender in Resources */,
 				C496A7ED1CE0799E00F017E5 /* GTQDetailFootView.xib in Resources */,
@@ -939,6 +967,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C496A7D31CE0693800F017E5 /* GTQSelectButton.m in Sources */,
+				C496A8161CE1B64100F017E5 /* GTQSearchHeadView.m in Sources */,
 				C496A7201CD9F7C800F017E5 /* AppDelegate.m in Sources */,
 				C496A7731CDB2F8A00F017E5 /* GTQHeaderPushViewController.m in Sources */,
 				C496A7AE1CDC3D9A00F017E5 /* GTQHeaderCollectionReusableView.m in Sources */,
@@ -968,6 +997,7 @@
 				C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */,
 				C496A7351CD9F89A00F017E5 /* GTQCityButton.m in Sources */,
 				C496A7F61CE0813100F017E5 /* GTQRmdTextCell.m in Sources */,
+				C496A8131CE1B53000F017E5 /* GTQSearchTextField.m in Sources */,
 				C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */,
 				C496A7D01CE0682200F017E5 /* GTQSelectView.m in Sources */,
 				C496A7231CD9F7FE00F017E5 /* GTQHomeViewController.m in Sources */,
@@ -984,8 +1014,10 @@
 				C496A74E1CD9F8FB00F017E5 /* GTQUserViewController.m in Sources */,
 				C496A7811CDB428900F017E5 /* GTQPromptView.m in Sources */,
 				C496A7621CDAEABF00F017E5 /* GTQRmdHeaderView.m in Sources */,
+				C496A81A1CE1B73F00F017E5 /* GTQSearchHistoryCell.m in Sources */,
 				C496A7BE1CDC8BC100F017E5 /* GTQBlurCell.m in Sources */,
 				C496A7B71CDC6DFB00F017E5 /* UIImage+Size.m in Sources */,
+				C496A81F1CE1BB0E00F017E5 /* HotSearchCell.m in Sources */,
 				C496A7FF1CE0819700F017E5 /* GTQUserInfoView.m in Sources */,
 				C496A7AA1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m in Sources */,
 				C496A73A1CD9F89A00F017E5 /* GTQNavigationController.m in Sources */,
