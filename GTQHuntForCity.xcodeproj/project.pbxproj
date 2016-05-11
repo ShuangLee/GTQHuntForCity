@@ -98,6 +98,15 @@
 		C496A81B1CE1B73F00F017E5 /* GTQSearchHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A8191CE1B73F00F017E5 /* GTQSearchHistoryCell.xib */; };
 		C496A81F1CE1BB0E00F017E5 /* HotSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A81D1CE1BB0D00F017E5 /* HotSearchCell.m */; };
 		C496A8221CE1BB9100F017E5 /* HotSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A8211CE1BB9100F017E5 /* HotSearchCell.xib */; };
+		C496A8281CE1D3B700F017E5 /* GTQMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8271CE1D3B700F017E5 /* GTQMessageModel.m */; };
+		C496A82C1CE1DE1200F017E5 /* GTQMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A82A1CE1DE1200F017E5 /* GTQMessageCell.m */; };
+		C496A8301CE1DE2E00F017E5 /* GTQHaveNoMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A82F1CE1DE2E00F017E5 /* GTQHaveNoMessageView.m */; };
+		C496A8321CE1DE5D00F017E5 /* GTQHaveNoMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A8311CE1DE5D00F017E5 /* GTQHaveNoMessageView.xib */; };
+		C496A8361CE1DE8B00F017E5 /* GTQMessageRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8351CE1DE8B00F017E5 /* GTQMessageRefreshHeader.m */; };
+		C496A8391CE1DEAB00F017E5 /* GTQMessageDeleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8381CE1DEAB00F017E5 /* GTQMessageDeleteButton.m */; };
+		C496A83B1CE1DEFD00F017E5 /* GTQMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C496A83A1CE1DEFD00F017E5 /* GTQMessageCell.xib */; };
+		C496A83E1CE1E86400F017E5 /* GTQMessagePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A83D1CE1E86400F017E5 /* GTQMessagePushViewController.m */; };
+		C496A8441CE2C92200F017E5 /* GTQSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C496A8431CE2C92200F017E5 /* GTQSettingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +288,22 @@
 		C496A81C1CE1BB0D00F017E5 /* HotSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSearchCell.h; sourceTree = "<group>"; };
 		C496A81D1CE1BB0D00F017E5 /* HotSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSearchCell.m; sourceTree = "<group>"; };
 		C496A8211CE1BB9100F017E5 /* HotSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotSearchCell.xib; sourceTree = "<group>"; };
+		C496A8261CE1D3B700F017E5 /* GTQMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMessageModel.h; sourceTree = "<group>"; };
+		C496A8271CE1D3B700F017E5 /* GTQMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMessageModel.m; sourceTree = "<group>"; };
+		C496A8291CE1DE1200F017E5 /* GTQMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMessageCell.h; sourceTree = "<group>"; };
+		C496A82A1CE1DE1200F017E5 /* GTQMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMessageCell.m; sourceTree = "<group>"; };
+		C496A82E1CE1DE2E00F017E5 /* GTQHaveNoMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQHaveNoMessageView.h; sourceTree = "<group>"; };
+		C496A82F1CE1DE2E00F017E5 /* GTQHaveNoMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQHaveNoMessageView.m; sourceTree = "<group>"; };
+		C496A8311CE1DE5D00F017E5 /* GTQHaveNoMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQHaveNoMessageView.xib; sourceTree = "<group>"; };
+		C496A8341CE1DE8B00F017E5 /* GTQMessageRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMessageRefreshHeader.h; sourceTree = "<group>"; };
+		C496A8351CE1DE8B00F017E5 /* GTQMessageRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMessageRefreshHeader.m; sourceTree = "<group>"; };
+		C496A8371CE1DEAB00F017E5 /* GTQMessageDeleteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMessageDeleteButton.h; sourceTree = "<group>"; };
+		C496A8381CE1DEAB00F017E5 /* GTQMessageDeleteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMessageDeleteButton.m; sourceTree = "<group>"; };
+		C496A83A1CE1DEFD00F017E5 /* GTQMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTQMessageCell.xib; sourceTree = "<group>"; };
+		C496A83C1CE1E86400F017E5 /* GTQMessagePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQMessagePushViewController.h; sourceTree = "<group>"; };
+		C496A83D1CE1E86400F017E5 /* GTQMessagePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQMessagePushViewController.m; sourceTree = "<group>"; };
+		C496A8421CE2C92200F017E5 /* GTQSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTQSettingView.h; sourceTree = "<group>"; };
+		C496A8431CE2C92200F017E5 /* GTQSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTQSettingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,8 +508,10 @@
 		C496A7411CD9F8FB00F017E5 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				C496A7421CD9F8FB00F017E5 /* GTQMessageViewController.h */,
-				C496A7431CD9F8FB00F017E5 /* GTQMessageViewController.m */,
+				C496A8331CE1DE6D00F017E5 /* Tool */,
+				C496A8251CE1CFD200F017E5 /* Model */,
+				C496A8241CE1CFCD00F017E5 /* View */,
+				C496A8231CE1CFC200F017E5 /* Controller */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -492,8 +519,9 @@
 		C496A7441CD9F8FB00F017E5 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				C496A7451CD9F8FB00F017E5 /* GTQSettingViewController.h */,
-				C496A7461CD9F8FB00F017E5 /* GTQSettingViewController.m */,
+				C496A8411CE2C91200F017E5 /* Model */,
+				C496A8401CE2C90D00F017E5 /* View */,
+				C496A83F1CE2C90500F017E5 /* Controller */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -770,6 +798,75 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		C496A8231CE1CFC200F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7421CD9F8FB00F017E5 /* GTQMessageViewController.h */,
+				C496A7431CD9F8FB00F017E5 /* GTQMessageViewController.m */,
+				C496A83C1CE1E86400F017E5 /* GTQMessagePushViewController.h */,
+				C496A83D1CE1E86400F017E5 /* GTQMessagePushViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A8241CE1CFCD00F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C496A8291CE1DE1200F017E5 /* GTQMessageCell.h */,
+				C496A82A1CE1DE1200F017E5 /* GTQMessageCell.m */,
+				C496A83A1CE1DEFD00F017E5 /* GTQMessageCell.xib */,
+				C496A82E1CE1DE2E00F017E5 /* GTQHaveNoMessageView.h */,
+				C496A82F1CE1DE2E00F017E5 /* GTQHaveNoMessageView.m */,
+				C496A8311CE1DE5D00F017E5 /* GTQHaveNoMessageView.xib */,
+				C496A8371CE1DEAB00F017E5 /* GTQMessageDeleteButton.h */,
+				C496A8381CE1DEAB00F017E5 /* GTQMessageDeleteButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A8251CE1CFD200F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C496A8261CE1D3B700F017E5 /* GTQMessageModel.h */,
+				C496A8271CE1D3B700F017E5 /* GTQMessageModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C496A8331CE1DE6D00F017E5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C496A8341CE1DE8B00F017E5 /* GTQMessageRefreshHeader.h */,
+				C496A8351CE1DE8B00F017E5 /* GTQMessageRefreshHeader.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		C496A83F1CE2C90500F017E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C496A7451CD9F8FB00F017E5 /* GTQSettingViewController.h */,
+				C496A7461CD9F8FB00F017E5 /* GTQSettingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C496A8401CE2C90D00F017E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C496A8421CE2C92200F017E5 /* GTQSettingView.h */,
+				C496A8431CE2C92200F017E5 /* GTQSettingView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C496A8411CE2C91200F017E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E6F9DEABB3425306A2AF67B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -889,12 +986,14 @@
 				C496A7C01CDC8BDA00F017E5 /* GTQBlurCell.xib in Resources */,
 				C496A7F21CE079F500F017E5 /* GTQRmdPictureCell.xib in Resources */,
 				C496A66F1CD8924800F017E5 /* Assets.xcassets in Resources */,
+				C496A8321CE1DE5D00F017E5 /* GTQHaveNoMessageView.xib in Resources */,
 				C496A7EB1CE0791000F017E5 /* GTQDetailRmdTableHeadView.xib in Resources */,
 				C496A8221CE1BB9100F017E5 /* HotSearchCell.xib in Resources */,
 				C496A7AB1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.xib in Resources */,
 				C496A8061CE08EFC00F017E5 /* GTQBeenAndCollectView.xib in Resources */,
 				C496A79B1CDB503E00F017E5 /* CellDatas.plist in Resources */,
 				C496A81B1CE1B73F00F017E5 /* GTQSearchHistoryCell.xib in Resources */,
+				C496A83B1CE1DEFD00F017E5 /* GTQMessageCell.xib in Resources */,
 				C496A7371CD9F89A00F017E5 /* GTQLeftMenuView.xib in Resources */,
 				C496A80D1CE09D1E00F017E5 /* gender in Resources */,
 				C496A7ED1CE0799E00F017E5 /* GTQDetailFootView.xib in Resources */,
@@ -967,6 +1066,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C496A7D31CE0693800F017E5 /* GTQSelectButton.m in Sources */,
+				C496A83E1CE1E86400F017E5 /* GTQMessagePushViewController.m in Sources */,
 				C496A8161CE1B64100F017E5 /* GTQSearchHeadView.m in Sources */,
 				C496A7201CD9F7C800F017E5 /* AppDelegate.m in Sources */,
 				C496A7731CDB2F8A00F017E5 /* GTQHeaderPushViewController.m in Sources */,
@@ -979,11 +1079,13 @@
 				C496A74A1CD9F8FB00F017E5 /* GTQBeenViewController.m in Sources */,
 				C496A75D1CDAE6F100F017E5 /* GTQHomeCellModel.m in Sources */,
 				C496A8021CE081B600F017E5 /* GTQBeenAndCollectView.m in Sources */,
+				C496A8301CE1DE2E00F017E5 /* GTQHaveNoMessageView.m in Sources */,
 				C496A7C71CDC9D0000F017E5 /* GTQSearchViewController.m in Sources */,
 				C496A6EB1CD9F5C300F017E5 /* UIColor+GTQColor.m in Sources */,
 				C496A7E51CE0741900F017E5 /* GTQDetailTableFootView.m in Sources */,
 				C496A7391CD9F89A00F017E5 /* GTQMenuButton.m in Sources */,
 				C496A7381CD9F89A00F017E5 /* GTQMainViewController.m in Sources */,
+				C496A8361CE1DE8B00F017E5 /* GTQMessageRefreshHeader.m in Sources */,
 				C496A78C1CDB4EBD00F017E5 /* GTQRenderBlurView.m in Sources */,
 				C496A77C1CDB3CC500F017E5 /* GTQUnLoginView.m in Sources */,
 				C496A7DF1CE06DAA00F017E5 /* GTQArticleModel.m in Sources */,
@@ -994,13 +1096,16 @@
 				C496A7CD1CE05FAF00F017E5 /* GTQDetailNavBar.m in Sources */,
 				C496A6EA1CD9F5C300F017E5 /* UIButton+GTQButton.m in Sources */,
 				C496A7E21CE073FE00F017E5 /* GTQDetailRmdTableHeadView.m in Sources */,
+				C496A82C1CE1DE1200F017E5 /* GTQMessageCell.m in Sources */,
 				C496A74C1CD9F8FB00F017E5 /* GTQMessageViewController.m in Sources */,
 				C496A7351CD9F89A00F017E5 /* GTQCityButton.m in Sources */,
+				C496A8281CE1D3B700F017E5 /* GTQMessageModel.m in Sources */,
 				C496A7F61CE0813100F017E5 /* GTQRmdTextCell.m in Sources */,
 				C496A8131CE1B53000F017E5 /* GTQSearchTextField.m in Sources */,
 				C496A74D1CD9F8FB00F017E5 /* GTQSettingViewController.m in Sources */,
 				C496A7D01CE0682200F017E5 /* GTQSelectView.m in Sources */,
 				C496A7231CD9F7FE00F017E5 /* GTQHomeViewController.m in Sources */,
+				C496A8391CE1DEAB00F017E5 /* GTQMessageDeleteButton.m in Sources */,
 				C496A7B41CDC6CF200F017E5 /* GTQRefreshHeader.m in Sources */,
 				C496A8101CE1824600F017E5 /* GTQUserInfosViewController.m in Sources */,
 				C496A7261CD9F83F00F017E5 /* GTQFoundViewController.m in Sources */,
@@ -1019,6 +1124,7 @@
 				C496A7B71CDC6DFB00F017E5 /* UIImage+Size.m in Sources */,
 				C496A81F1CE1BB0E00F017E5 /* HotSearchCell.m in Sources */,
 				C496A7FF1CE0819700F017E5 /* GTQUserInfoView.m in Sources */,
+				C496A8441CE2C92200F017E5 /* GTQSettingView.m in Sources */,
 				C496A7AA1CDC35FA00F017E5 /* GTQFoundCollectionViewCell.m in Sources */,
 				C496A73A1CD9F89A00F017E5 /* GTQNavigationController.m in Sources */,
 				C496A7A61CDC33BC00F017E5 /* GTQFoundViewLayout.m in Sources */,
