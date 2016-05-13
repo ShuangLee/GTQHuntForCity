@@ -1267,7 +1267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Lshuang/Desktop/GTQHuntForCity/GTQHuntForCity/GTQPrefixHeader.h;
+				GCC_PREFIX_HEADER = GTQHuntForCity/GTQPrefixHeader.h;
 				INFOPLIST_FILE = GTQHuntForCity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1284,7 +1284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Lshuang/Desktop/GTQHuntForCity/GTQHuntForCity/GTQPrefixHeader.h;
+				GCC_PREFIX_HEADER = GTQHuntForCity/GTQPrefixHeader.h;
 				INFOPLIST_FILE = GTQHuntForCity/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
